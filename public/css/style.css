@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style:none;
+  background-color: darkgrey;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+  font-size: 35px;s
+  margin: 0;
+}
+li a{
+  display-inline: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#home:hover{
+  background-color: #ff71ce;
+  color: white;
+}
+
+#personal:hover{
+  background-color: #01cdfe;
+  color: white;
+}
+
+#project:hover{
+  background-color: #05ffa1;
+  color: white;
+}
+
+#hobby:hover{
+  background-color: #111;
+}
+
+
+li.dropdown{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+
+
+
+
+.link{
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #333;
+}
+
+#home{
+  color: #ff71ce;
+}
+#personal{
+  color: #01cdfe;
+}
+#project{
+  color: #05ffa1;
+}
+#hobby{
+  color: white;
+}
