@@ -32,10 +32,12 @@
                 <li class='link'><a href='/me' id="personal">ＭＥ</a></li>
                 <li class='link'><a href='/projects' id="project">ＰＲＯＪＥＣＴＳ</a></li>
 
+
                     <li  class="dropdown link"><a class="dropbtn" id="hobby">ＨＯＢＢＩＥＳ</a>
+
                         <div class="dropdown-content">
-                                <a href='/hobbies/basketball'>basketball</a>
-                                <a href='/hobbies/dancing'>dancing</a>
+                                <a href='/hobbies/basketball' class="hobby">basketball</a>
+                                <a href='/hobbies/dancing' class="hobby">dancing</a>
                         </div>
                     </li>
 

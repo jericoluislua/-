@@ -15,4 +15,19 @@ class HOBBIESController
         $view->heading = '';
         $view->display();
     }
+    public function basketball()
+    {
+        $view = new View('hobbies_basketball');
+        $view->title = 'Basketball';
+        $view->heading = 'basketball';
+        $view->display();
+    }
+
+    public function dancing()
+    {
+        $view = new View('hobbies_dancing');
+        $view->title = 'Dancing';
+        $view->heading = 'dancing';
+        $view->display();
+    }
 }

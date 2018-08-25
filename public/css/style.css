@@ -54,7 +54,7 @@ li a{
   color: white;
 }
 
-#hobby:hover{
+#hobby:hover, .hobby{
   background-color: #111;
 }
 
