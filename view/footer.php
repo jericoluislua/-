@@ -1,6 +1,7 @@
         <hr>
         <footer>
-          <p>&copy; ICT Berufsbildungcenter AG 2016</p>
+          <p>Copyright MVC Framework from BBC
+              <br/> A project by Jerico Lua</p>
         </footer>
     </div>
 

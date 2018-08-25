@@ -2,6 +2,14 @@ body{
   margin: 0;
   padding: 0;
 }
+
+h3{
+  /*margin-top: 35px;*/
+}
+
+l{
+  border-bottom: 0;
+}
 ul {
   list-style:none;
   background-color: darkgrey;
@@ -15,14 +23,14 @@ ul {
 }
 li {
   float: left;
-  font-size: 35px;s
+  font-size: 30px;
   margin: 0;
 }
 li a{
   display-inline: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding-top: 14px;
   text-decoration: none;
 }
 
@@ -73,7 +81,6 @@ li.dropdown{
 
 .link{
   padding: 0;
-  margin-left: 10px;
   margin-right: 10px;
   background-color: #333;
 }
