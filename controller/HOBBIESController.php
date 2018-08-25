@@ -8,5 +8,11 @@
 
 class HOBBIESController
 {
-
+    public function index()
+    {
+        $view = new View('website');
+        $view->title = '';
+        $view->heading = '';
+        $view->display();
+    }
 }

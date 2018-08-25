@@ -14,6 +14,7 @@
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+        <!--
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -23,6 +24,7 @@
             </button>
             <a class="navbar-brand" href='/'>ＳＥＬＦ</a>
         </div>
+        -->
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
 
@@ -30,7 +32,7 @@
                 <li class='link'><a href='/me' id="personal">ＭＥ</a></li>
                 <li class='link'><a href='/projects' id="project">ＰＲＯＪＥＣＴＳ</a></li>
 
-                    <li  class="dropdown link"><a  href='/hobbies' class="dropbtn" id="hobby">ＨＯＢＢＩＥＳ</a>
+                    <li  class="dropdown link"><a class="dropbtn" id="hobby">ＨＯＢＢＩＥＳ</a>
                         <div class="dropdown-content">
                                 <a href='/hobbies/basketball'>basketball</a>
                                 <a href='/hobbies/dancing'>dancing</a>

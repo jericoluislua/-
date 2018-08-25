@@ -9,5 +9,4 @@
 /**
  * Tells you everything you need to know about the website.
  */
-?>
-<p> Test </p>
+echo 'Abou the website';
