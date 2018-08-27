@@ -9,13 +9,13 @@
 class WEBSITEController
 {
     /**
-     * Default-Page for Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ: Shows everything you need to know about the whole website
-     * Dispatcher: /website
+     * index-page Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ: Shows everything you need to know about the whole website
+     * Dispatcher: /
      */
     public function index()
     {
         $view = new View('website');
-        $view->title = 'Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ';
+        $view->title = '【Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ】';
         $view->heading = 'Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ';
         $view->display();
     }

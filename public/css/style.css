@@ -1,107 +1,46 @@
-body{
-  margin: 0;
-  padding: 0;
+body {
+  padding-top: 50px;
 }
-
-h3{
-  /*margin-top: 35px;*/
+.link{
+  color: white; /* For browsers that somehow do not support other colors */
 }
-#navbar{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin:0;
+.link:hover{
+  color: #333333; /* For browsers that do not support gradients */
 }
-l{
-  border-bottom: 0;
-  margin:0;
-}
-ul {
-  list-style:none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-li {
-  float: left;
-  font-size: 30px;
-  border-color: darkgrey;
-  margin: 0;
-}
-li a{
-  display-inline: inline-block;
+#website{
   color: white;
-  text-align: center;
-  text-decoration: none;
 }
-
-#home:hover{
+#website:hover{
+  background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
+  color: white;
+}
+#files{
+  color: #ff71ce;
+}
+#files:hover{
   background-color: #ff71ce;
   color: white;
 }
 
-#personal:hover{
-  background-color: #01cdfe;
-  color: white;
+#life{
+  color: #05ffa1;
 }
-
-#project:hover{
+#life:hover{
   background-color: #05ffa1;
   color: white;
 }
 
-#hobby:hover, .hobby{
-  background-color: #111;
-}
-
-
-li.dropdown{
-  display: inline-block;
-}
-
-
-
-
-
-
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: inline-block;
-}
-
-
-
-
-
-.link{
-  padding: 0;
-  margin-right: 10px;
-  border-color: #333;
-}
-
-#home{
-  color: #ff71ce;
-}
-#personal{
-  color: #01cdfe;
-}
 #project{
-  color: #05ffa1;
+  color: #b967ff;
+}
+#project:hover{
+  background-color: #b967ff;
+  color: white;
 }
 #hobby{
-  color: black;
+  color: #33ccff;
 }
 #hobby:hover{
+  background-color: #33ccff;
   color: white;
 }

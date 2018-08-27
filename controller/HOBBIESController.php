@@ -10,9 +10,9 @@ class HOBBIESController
 {
     public function index()
     {
-        $view = new View('website');
-        $view->title = '';
-        $view->heading = '';
+        $view = new View('hobbies');
+        $view->title = '【Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ】';
+        $view->heading = 'Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ';
         $view->display();
     }
     public function basketball()

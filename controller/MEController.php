@@ -11,7 +11,7 @@ class MEController
     public function index()
     {
         $view = new View('me');
-        $view->title = 'Ｍ　Ｅ';
+        $view->title = '【Ｍ　Ｅ】';
         $view->heading = 'Ｍ　Ｅ';
         $view->display();
     }
