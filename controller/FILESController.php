@@ -8,11 +8,28 @@
  */
 class FILESController
 {
+
     public function index()
     {
         $view = new View('files');
         $view->title = '【Ｆ　Ｉ　Ｌ　Ｅ　Ｓ】';
         $view->heading = 'Ｆ　Ｉ　Ｌ　Ｅ　Ｓ';
         $view->display();
+    }
+    public function checkPassword()
+    {
+        $realpassword = 'JericoIM16a';
+        if (isset($_POST['send'])) {
+            $passwordgiven = htmlspecialchars($_POST['password']);
+            if($passwordgiven == $realpassword){
+                $_SESSION['openfiles'] = $passwordgiven;
+                header('Location: /files');
+
+            }
+            else if($passwordgiven != $realpassword){
+                echo 'Wrong password given.';
+                header('Location: /files');
+            }
+        }
     }
 }
