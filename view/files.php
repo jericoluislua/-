@@ -9,7 +9,7 @@
 
 ?>
 <p class="fileabt">Files that are secured by a password.</p>
-<form class="form-horizontal" action="/user/doLogin" method="post">
+<form class="form-horizontal" action="/files/checkPassword" method="post">
     <div class="component" data-html="true">
         <div class="form-group">
 
