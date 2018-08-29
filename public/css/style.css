@@ -7,7 +7,9 @@ body {
 .navbar{
   border: none;
 }
-
+/*some other animations:
+  https://codepen.io/pedrocampos/pen/gufrx/
+ */
 /*to be adjusted in scss*/
 .navbar-toggle {
   border: none;
