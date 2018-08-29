@@ -33,7 +33,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/files" class='link' id="files">ＦＩＬＥＳ</a></li>
+                <li><a href="/files" class='link' id="file">ＦＩＬＥＳ</a></li>
                 <li><a href='/projects' class='link' id="project">ＰＲＯＪＥＣＴＳ</a></li>
                 <li><a href='/me' class='link' id="life">ＭＥ</a></li>
                 <li><a href="/hobbies" class='link' id="hobby">ＨＯＢＢＩＥＳ</a>

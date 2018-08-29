@@ -17,7 +17,7 @@ class HOBBIESController
     }
     public function basketball()
     {
-        $view = new View('hobbies_basketball');
+        $view = new View('hobby_basketball');
         $view->title = 'Basketball';
         $view->heading = 'basketball';
         $view->display();
@@ -25,9 +25,17 @@ class HOBBIESController
 
     public function dancing()
     {
-        $view = new View('hobbies_dancing');
+        $view = new View('hobby_dancing');
         $view->title = 'Dancing';
         $view->heading = 'dancing';
+        $view->display();
+    }
+
+    public function cubing()
+    {
+        $view = new View('hobby_cubing');
+        $view->title = 'Cubing';
+        $view->heading = 'cubing';
         $view->display();
     }
 }

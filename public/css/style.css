@@ -1,6 +1,9 @@
 body {
   padding-top: 50px;
 }
+
+/* NAVIGATION BAR */
+
 .link{
   color: white; /* For browsers that somehow do not support other colors */
 }
@@ -14,19 +17,11 @@ body {
   background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
   color: white;
 }
-#files{
+#file{
   color: #ff71ce;
 }
-#files:hover{
+#file:hover{
   background-color: #ff71ce;
-  color: white;
-}
-
-#life{
-  color: #05ffa1;
-}
-#life:hover{
-  background-color: #05ffa1;
   color: white;
 }
 
@@ -37,10 +32,42 @@ body {
   background-color: #b967ff;
   color: white;
 }
-#hobby{
+
+#life{
   color: #33ccff;
 }
-#hobby:hover{
+#life:hover{
   background-color: #33ccff;
   color: white;
+}
+
+#hobby{
+  color: #05ffa1;
+}
+#hobby:hover{
+  background-color: #05ffa1;
+  color: white;
+}
+/* NAVIGATION BAR */
+
+/* BUTTONS */
+
+.btnhobby{
+  color: #05ffa1;
+  border: 2px solid #05ffa1;
+  background-color: inherit;
+  font-size: 18px;
+}
+.btnhobby:hover{
+  background-color: #05ffa1;
+  color: black;
+}
+
+/* BUTTONS */
+
+/* DIVS */
+
+.row{
+  padding-left: 20px;
+  padding-right: 20px;
 }
