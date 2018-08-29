@@ -23,16 +23,19 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
+            <!--<button type="button" class="navbar-toggle x collapsed" data-toggle="collapse" data-target="#navbar-collapse-x" aria-expanded="false" aria-controls="navbar">-->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
             </button>
             <a class="navbar-brand" id='website' href="/">ＷＥＢＳＩＴＥ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
+        <!--<div class="collapse navbar-collapse" id="navbar-collapse-x">-->
             <ul class="nav navbar-nav">
+            <!--<ul class="nav navbar-nav">-->
                 <li><a href="/files" class='link' id="file">ＦＩＬＥＳ</a></li>
                 <li><a href='/projects' class='link' id="project">ＰＲＯＪＥＣＴＳ</a></li>
                 <li><a href='/me' class='link' id="life">ＭＥ</a></li>
