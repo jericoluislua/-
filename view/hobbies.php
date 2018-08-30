@@ -7,7 +7,7 @@
             </div>
         </a>
     </div>-->
-    <button onclick="location.href = '/hobbies/basketball';" id="basketball" class="btnhobby" >ＢＡＳＫＥＴＢＡＬＬ</button>
+    <button onclick="location.href = '/hobbies/basketball';" id="basketball" class="btn btnhobby" >ＢＡＳＫＥＴＢＡＬＬ</button>
 
     <!--<div class="col s6">
         <a href="./hobbies/dancing">
@@ -16,7 +16,7 @@
             </div>
         </a>
     </div>-->
-    <button onclick="location.href = '/hobbies/dancing';" id="dancing" class="btnhobby" >ＤＡＮＣＩＮＧ</button>
+    <button onclick="location.href = '/hobbies/dancing';" id="dancing" class="btn btnhobby" >ＤＡＮＣＩＮＧ</button>
     <!--<div class="col s6">
         <a href="./hobbies/cubing">
             <div class="btn cubing">
@@ -24,6 +24,6 @@
             </div>
         </a>
     </div>-->
-    <button onclick="location.href = '/hobbies/cubing';" id="cubing" class="btnhobby" >ＣＵＢＩＮＧ</button>
+    <button onclick="location.href = '/hobbies/cubing';" id="cubing" class="btn btnhobby" >ＣＵＢＩＮＧ</button>
 
 </div>

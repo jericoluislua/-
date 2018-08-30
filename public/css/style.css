@@ -1,11 +1,13 @@
 body {
   padding-top: 50px;
 }
-
 /* NAVIGATION BAR */
-
 .navbar{
   border: none;
+  box-shadow: none;
+}
+.navbar-collapse{
+  border-top: none;
 }
 /*some other animations:
   https://codepen.io/pedrocampos/pen/gufrx/
@@ -46,21 +48,18 @@ body {
 
 
 
-.link{
-  color: white; /* For browsers that somehow do not support other colors */
-}
-.link:hover{
-  color: #333333; /* For browsers that do not support gradients */
-}
+
 #website{
   color: white;
+  /*width: 298px;*/
 }
-#website:hover{
+.navbar-header:hover{
   background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
-  color: white;
 }
+
 #file{
   color: #ff71ce;
+  transition: color 10s ease-in-out;
 }
 #file:hover{
   background-color: #ff71ce;
@@ -78,14 +77,11 @@ body {
 #life{
   color: #33ccff;
 }
-#life{
-  color: #33ccff;
-}
-
 #life:hover{
   background-color: #33ccff;
   color: white;
 }
+
 #hobby{
   color: #05ffa1;
 }
@@ -93,19 +89,91 @@ body {
   background-color: #05ffa1;
   color: white;
 }
+
+#file, #project, #life, #hobby{
+  transition: background-color 1s ease;
+}
 /* NAVIGATION BAR */
 
 /* BUTTONS */
 
 .btnhobby{
+  transition: background-color 10s ease;
+  transition: color 1s ease;
+}
+.btnhobby{
   color: #05ffa1;
-  border: 2px solid #05ffa1;
+  border: 1px solid #05ffa1;
   background-color: inherit;
   font-size: 18px;
 }
 .btnhobby:hover{
   background-color: #05ffa1;
   color: black;
+}
+
+.btnreturn {
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btnreturn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.btnreturn:active {
+  border-color: #17954c;
+  color: #17954c;
+}
+
+.btnreturn:hover {
+  background: #24b662;
+}
+
+.btnreturn:before {
+  position: absolute;
+  height: 100%;
+  font-size: 125%;
+  line-height: 3.5;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  left: 30%;
+  opacity: 0;
+  top: 0;
+}
+
+.btnreturn:active:before {
+  color: #17954c;
+}
+
+.btnreturn:hover:before {
+  left: 10%;
+  opacity: 1;
+}
+.icon-arrow-left:before {
+  content: "\e003";
 }
 
 /* BUTTONS */
