@@ -53,13 +53,35 @@ body {
   color: white;
   /*width: 298px;*/
 }
-.navbar-header:hover{
+/*.navbar-header:hover{
   background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
+  opacity: 1;
+}*/
+
+.navbar-brand, .navbar-header {
+  position: relative;
+  z-index: 1; /* matters! */
 }
+.navbar-brand::before, .navbar-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
+  opacity: 0;
+  transition: opacity 1s;
+  z-index: -1;
+}
+.navbar-brand:hover::before, .navbar-header:hover::before {
+  opacity: 1;
+}
+
+
 
 #file{
   color: #ff71ce;
-  transition: color 10s ease-in-out;
 }
 #file:hover{
   background-color: #ff71ce;
