@@ -57,7 +57,7 @@ body {
   background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
   opacity: 1;
 }*/
-
+/*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 .navbar-brand, .navbar-header {
   position: relative;
   z-index: 1; /* matters! */
