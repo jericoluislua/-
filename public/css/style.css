@@ -3,8 +3,8 @@ body {
   height: 100%;
   width: 100%;
 }
-element.style{
-  margin-left: 10px;
+#h1hobby{
+  float: left;
 }
 /* NAVIGATION BAR */
 .navbar{
@@ -140,6 +140,7 @@ element.style{
 }
 
 .btnreturn {
+  float: left;
   cursor: pointer;
   padding: 25px 80px;
   display: inline-block;

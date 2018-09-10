@@ -45,4 +45,4 @@
 
 <div class="container">
 
-    <span><h1><?= $heading ?></h1></span>
+    <h1 id="<?= $id ?>"><?= $heading ?></h1>

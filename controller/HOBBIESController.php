@@ -13,6 +13,10 @@ class HOBBIESController
         $view = new View('hobbies');
         $view->title = '【Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ】';
         $view->heading = 'Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ';
+        if($heading = "basketball")
+        {
+            $view->id = "h1hobbyind";
+        }
         $view->display();
     }
     public function basketball()
@@ -20,6 +24,11 @@ class HOBBIESController
         $view = new View('hobby_basketball');
         $view->title = 'Basketball';
         $view->heading = 'basketball';
+
+        if($heading = "basketball")
+        {
+            $view->id = "h1hobby";
+        }
         $view->display();
     }
 
@@ -28,6 +37,10 @@ class HOBBIESController
         $view = new View('hobby_dancing');
         $view->title = 'Dancing';
         $view->heading = 'dancing';
+        if($heading = "dancing")
+        {
+            $view->id = "h1hobby";
+        }
         $view->display();
     }
 
@@ -36,6 +49,10 @@ class HOBBIESController
         $view = new View('hobby_cubing');
         $view->title = 'Cubing';
         $view->heading = 'cubing';
+        if($heading = "cubing")
+        {
+            $view->id = "h1hobby";
+        }
         $view->display();
     }
     public function videogames()
@@ -43,6 +60,10 @@ class HOBBIESController
         $view = new View('hobby_vg');
         $view->title = 'Video Games';
         $view->heading = 'videogames';
+        if($heading = "videogames")
+        {
+            $view->id = "h1hobby";
+        }
         $view->display();
     }
 
