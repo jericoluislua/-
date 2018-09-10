@@ -29,7 +29,7 @@
                 <span class="icon-bar middle-bar"></span>
                 <span class="icon-bar bottom-bar"></span>
             </button>
-            <a href="/" class="navbar-brand" id='website'>ＷＥＢＳＩＴＥ</a>
+            <a href="/" class="navbar-brand" id='website'>ＪＬＬ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

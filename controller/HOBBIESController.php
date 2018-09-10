@@ -38,4 +38,12 @@ class HOBBIESController
         $view->heading = 'cubing';
         $view->display();
     }
+    public function videogames()
+    {
+        $view = new View('hobby_vg');
+        $view->title = 'Video Games';
+        $view->heading = 'videogames';
+        $view->display();
+    }
+
 }

@@ -25,5 +25,6 @@
         </a>
     </div>-->
     <button onclick="location.href = '/hobbies/cubing';" id="cubing" class="btn btnhobby" >ＣＵＢＩＮＧ</button>
+    <button onclick="location.href = '/hobbies/videogames';" id="videogames" class="btn btnhobby" >ＶＩＤＥＯＧＡＭＥＳ</button>
 
 </div>
