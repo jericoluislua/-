@@ -32,12 +32,14 @@
             <a href="/" class="navbar-brand" id='website'>ＪＬＬ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav centered-navbar">
                 <li><a href="/files" class='link' id="file">ＦＩＬＥＳ</a></li>
                 <li><a href='/projects' class='link' id="project">ＰＲＯＪＥＣＴＳ</a></li>
                 <li><a href='/me' class='link' id="life">ＭＥ</a></li>
-                <li><a href="/hobbies" class='link' id="hobby">ＨＯＢＢＩＥＳ</a>
-
+                <li><a href="/hobbies" class='link' id="hobby">ＨＯＢＢＩＥＳ</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/logout" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
