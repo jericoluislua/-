@@ -6,7 +6,7 @@
  * Time: 16:14
  */
 
-class LogoutController
+class LOGOUTController
 {
     public function index(){
         if(isset($_SESSION['openfiles'])){
