@@ -13,9 +13,9 @@ class HOBBIESController
         $view = new View('hobbies');
         $view->title = '【Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ】';
         $view->heading = 'Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ';
-        if($heading = "basketball")
+        if($heading = "Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ")
         {
-            $view->id = "h1hobbyind";
+            $view->id = "h1hobbyindex";
         }
         $view->display();
     }
