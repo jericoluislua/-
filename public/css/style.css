@@ -6,6 +6,9 @@ body {
 #h1hobby{
   float: left;
 }
+#filebtn{
+  float: left;
+}
 /* NAVIGATION BAR */
 .navbar{
   border: none;
@@ -117,7 +120,10 @@ body {
   color: white;
 }
 
-#file, #project, #life, #hobby{
+#logout:hover{
+  background-color: #444;
+}
+#file, #project, #life, #hobby, #logout{
   transition: background-color 1s ease;
 }
 /* NAVIGATION BAR */
@@ -144,7 +150,7 @@ body {
   cursor: pointer;
   /*padding: 15px 80px;*/
   display: inline-block;
-  margin: 15px 30px;
+  margin-top: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;

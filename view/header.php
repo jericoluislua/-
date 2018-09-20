@@ -30,22 +30,42 @@
                 <span class="icon-bar middle-bar"></span>
                 <span class="icon-bar bottom-bar"></span>
             </button>
-            <a href="/" class="navbar-brand" id='website'>ＪＬＬ</a>
+            <a href="/" class="navbar-brand" id='website' onclick="headerChange()">ＪＬＬ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav centered-navbar">
-                <li><a href="/files" class='link' id="file">ＦＩＬＥＳ</a></li>
-                <li><a href='/projects' class='link' id="project">ＰＲＯＪＥＣＴＳ</a></li>
-                <li><a href='/me' class='link' id="life">ＭＥ</a></li>
-                <li><a href="/hobbies" class='link' id="hobby">ＨＯＢＢＩＥＳ</a></li>
+                <li><a href="/FILES" class='link' id="file" onclick="headerChange();">ＦＩＬＥＳ</a></li>
+                <li><a href='/PROJECTS' class='link' id="project" onclick="headerChange();">ＰＲＯＪＥＣＴＳ</a></li>
+                <li><a href='/ME' class='link' id="life" onclick="headerChange();">ＭＥ</a></li>
+                <li><a href="/HOBBIES" class='link' id="hobby" onclick="headerChange();">ＨＯＢＢＩＥＳ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/logout" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
+                <li><a href="/LOGOUT" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-
+<script>
+    /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/
+    function headerChange(){
+        if($(window).width() < 387){
+            console.log('Page is smaller than 387');
+            document.getElementById("h1project").innerHTML = "ＰＲＯＪＥＣＴＳ";
+        }
+        else if ($(window).width() > 388 && $(window).width() < 569) {
+            console.log('Page is smaller than 498');
+            document.getElementById("h1index").innerHTML = "Ｗ Ｅ Ｂ Ｓ Ｉ Ｔ Ｅ";
+            document.getElementById("h1project").innerHTML = "Ｐ Ｒ Ｏ Ｊ Ｅ Ｃ Ｔ Ｓ";
+            document.getElementById("h1hobbyindex").innerHTML = "Ｈ Ｏ Ｂ Ｂ Ｉ Ｅ Ｓ";
+        }
+        else if($(window).width() <= 570){
+            console.log('Page is bigger than 498');
+            document.getElementById("h1index").innerHTML = "Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ";
+            document.getElementById("h1project").innerHTML = "Ｐ　Ｒ　Ｏ　Ｊ　Ｅ　Ｃ　Ｔ　Ｓ";
+            document.getElementById("h1hobbyindex").innerHTML = "Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ";
+        }
+    }
+</script>
 <div class="container">
 
     <h1 id="<?= $id ?>"><?= $heading ?></h1>

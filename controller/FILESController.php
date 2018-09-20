@@ -23,12 +23,12 @@ class FILESController
             $passwordgiven = htmlspecialchars($_POST['password']);
             if($passwordgiven == $realpassword){
                 $_SESSION['openfiles'] = $passwordgiven;
-                header('Location: /files');
+                header('Location: /FILES');
 
             }
             else if($passwordgiven != $realpassword){
                 echo 'Wrong password given.';
-                header('Location: /files');
+                header('Location: /FILES');
             }
         }
     }

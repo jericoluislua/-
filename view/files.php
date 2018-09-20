@@ -17,13 +17,15 @@ if(!isset($_SESSION['openfiles'])){
 
                 <div class="form-group">
                     <div class="col-md-1">
-                        <label class="col-md-1 control-label" for="password">Password</label>
+                        <label class="col-md-1 control-label" for="password" id="inputpass">Password</label>
                     </div>
+                    <script>
+                        $(document.getElementById("inputpass")).width() == 80%;
+                    </script>
                     <div class="col-md-4">
-                    <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md" required>
-
+                        <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md" required>
+                        <input id="filebtn" name="send" type="submit" class="btn" value="Show secured files">
                     </div>
-                    <input id="filebtn" name="send" type="submit" class="btn" value="Show secured files">
                 </div>
             </div>
     </form>

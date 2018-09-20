@@ -6,6 +6,6 @@
  * Time: 5:37 PM
  */
 ?>
-<form action="/hobbies" method="post">
+<form action="/HOBBIES" method="post">
     <input type="submit" name="return" value="Return" id="btnreturn" class="btn btnreturn icon-arrow-left"/>
 </form>
