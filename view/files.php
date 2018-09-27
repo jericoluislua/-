@@ -33,7 +33,7 @@ if(!isset($_SESSION['openfiles'])){
 }
 else if(isset($_SESSION['openfiles'])){
     ?>
-    <p>Secured Files</p>
+    <p>SECURED FILES.</p>
     <?php
 }
 ?>

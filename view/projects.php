@@ -5,7 +5,27 @@
  * Date: 8/25/2018
  * Time: 5:32 PM
  */
-echo 'All projects by Jerico with some collaborations';?>
+echo 'All projects by Jerico with some collaborations';
+$me = 'Jerico Luis Lua'?>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <p class="ptitle">
+            TIC TAC TOE
+        </p>
+        <p id="pcreator">
+            by <?= $me; ?>
+        </p>
+        <p class="pdesc">
+            A project made for the Module 133.
+        </p>
+        <p class="pdesc">
+            Tested on Mozilla Firefox and Google Chrome. (Works better on Google Chrome)
+        </p>
+    </div>
+    <p>
+        <a href="http://tictactoe.jericolua.ch">Go to TIC TAC TOE</a>
+    </p>
+</div>
 <script>
     /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/
     /* Do not waste time by creating jQuery object from window multiple times.

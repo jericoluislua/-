@@ -9,6 +9,7 @@
 class FILESController
 {
 
+    protected $realpassword = 'JericoIM16a';
     public function index()
     {
         $view = new View('files');
@@ -16,20 +17,25 @@ class FILESController
         $view->heading = 'Ｆ　Ｉ　Ｌ　Ｅ　Ｓ';
         $view->display();
     }
+
     public function checkPassword()
     {
-        $realpassword = 'JericoIM16a';
+        $passwordhash = password_hash($this->realpassword, PASSWORD_DEFAULT);
+        //$admhash = password_hash($this->admpassword, PASSWORD_DEFAULT);
         if (isset($_POST['send'])) {
             $passwordgiven = htmlspecialchars($_POST['password']);
-            if($passwordgiven == $realpassword){
+            if (password_verify($passwordgiven, $passwordhash)) {
                 $_SESSION['openfiles'] = $passwordgiven;
                 header('Location: /FILES');
-
             }
-            else if($passwordgiven != $realpassword){
-                echo 'Wrong password given.';
+            else {
                 header('Location: /FILES');
+                echo 'Wrong password given.';
             }
+            /*if(password_verify($passwordgiven,$admhash)){
+                $_SESSION['admin'] = $passwordgiven;
+                header('Location: /FILES');
+            }*/
         }
     }
 }
