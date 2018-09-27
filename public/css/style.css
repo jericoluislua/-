@@ -66,11 +66,11 @@ body {
   opacity: 1;
 }*/
 /*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
-.navbar-brand, .navbar-header {
+.navbar-brand{
   position: relative;
   z-index: 1; /* matters! */
 }
-.navbar-brand::before, .navbar-header::before {
+.navbar-brand::before{
   content: "";
   position: absolute;
   top: 0;
@@ -82,7 +82,7 @@ body {
   transition: opacity 1s;
   z-index: -1;
 }
-.navbar-brand:hover::before, .navbar-header:hover::before {
+.navbar-brand:hover::before{
   opacity: 1;
 }
 
@@ -146,6 +146,7 @@ body {
 }
 
 .btnreturn {
+  float: left;
   cursor: pointer;
   /*padding: 15px 80px;*/
   display: inline-block;
@@ -205,11 +206,12 @@ body {
   left: 10%;
   opacity: 1;
 }
+.icon-arrow-left:before {
+  content: "\e003";
+}
 
 /* BUTTONS */
-p{
-  float: none;
-}
+
 /* DIVS */
 
 .row{
