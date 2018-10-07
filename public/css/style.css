@@ -1,3 +1,4 @@
+              /* GENERAL */
 body {
   padding-top: 50px;
   height: 100%;
@@ -18,7 +19,10 @@ body {
     border: 0;
   }
 }
-/* NAVIGATION BAR */
+                /* GENERAL*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+              /* NAVIGATION BAR */
 .navbar{
   border: none;
   box-shadow: none;
@@ -134,9 +138,10 @@ body {
 #file, #project, #life, #hobby, #logout{
   transition: background-color 1s ease;
 }
-/* NAVIGATION BAR */
-
-/* BUTTONS */
+              /* NAVIGATION BAR */
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+              /* BUTTONS */
 
 .btnhobby{
   transition: background-color 10s ease;
@@ -190,11 +195,11 @@ body {
   opacity: 1;
   left: 20px;
 }
-/* BUTTONS */
-
-/* DIVS */
-
-/* VIDEOSTUFF */
+              /* BUTTONS */
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+              /* DIVS */
+              /* VIDEOSTUFF */
 .videoinformation {
   border: 5px solid black;
   display: inline-block;
@@ -204,6 +209,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+              /* VIDEOSTUFF */
 
 .row{
   padding-left: 20px;
