@@ -197,6 +197,8 @@ body {
 /* VIDEOSTUFF */
 .videoinformation {
   border: 5px solid black;
+  display: inline-block;
+  padding: 5px;
 }
 .resp-videocontainer {
   position: relative;
