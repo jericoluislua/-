@@ -67,5 +67,5 @@
     }
 </script>
 <div class="container">
-
+<div id="heading">
     <h1 id="<?= $id ?>"><?= $heading ?></h1>
