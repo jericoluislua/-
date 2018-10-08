@@ -10,6 +10,7 @@ body {
 #filebtn{
   float: left;
 }
+/*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 @media only screen and (min-device-width: 1024px) {
   .navbar-brand{
     position: relative;
@@ -61,7 +62,7 @@ body {
 }
               /* GENERAL*/
 
-              /*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
               /* NAVIGATION BAR */
 .navbar{
@@ -114,7 +115,6 @@ body {
   color: white;
   /*width: 298px;*/
 }
-/*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 
 #file{
   color: #ff71ce;
@@ -174,6 +174,7 @@ body {
 }
 
 .btnreturn{
+  margin-top: -17px;
   margin-left: 10px;
   color: #05ffa1;
   border: 1px solid #05ffa1;
@@ -226,7 +227,22 @@ body {
   padding-top: 5px;
 }
               /* VIDEOSTUFF */
+              /* PARALLAX */
+.bgimage-1{
+  background-image: url("../images/mepic.JPG");
 
+}
+.bgimage-1, .bgimage-2{
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimage-2{
+  background-image: url('../images/mevaporwave(1).JPG');
+  min-height: 100%;
+}
 .row{
   padding-left: 20px;
   padding-right: 20px;

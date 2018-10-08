@@ -1,3 +1,4 @@
+</div>
 <?php
 /**
  * Created by PhpStorm.
@@ -6,4 +7,7 @@
  * Time: 5:29 PM
  */
 
-echo 'About me';
+echo 'About me';?>
+<div class="bgimage-1"></div>
+<div class="parallaxme-1"></div>
+<div class="bgimage-2"></div>

@@ -6,6 +6,8 @@
  * Time: 5:38 PM
  */
 ?>
-<form action="/HOBBIES" method="post">
-    <input type="submit" name="return" value="Return" id="btnreturn" class="btn btnreturn icon-arrow-left"/>
-</form>
+<button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
+    <i class="fa fa-angle-left"></i>
+    <span>return</span>
+</button>
+</div>

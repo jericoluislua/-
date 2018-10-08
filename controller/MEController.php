@@ -13,6 +13,10 @@ class MEController
         $view = new View('me');
         $view->title = '【Ｍ　Ｅ】';
         $view->heading = 'Ｍ　Ｅ';
+        if($heading = "Ｍ　Ｅ")
+        {
+            $view->id = "h1me";
+        }
         $view->display();
     }
 }
