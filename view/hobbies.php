@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row rhobbies">
 
     <!--<div class="col s6">
         <a href="/hobbies/basketball">

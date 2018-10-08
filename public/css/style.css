@@ -33,13 +33,6 @@ body {
   }
 }
 @media only screen and (max-device-width: 1024px) {
-  .resp-iframe {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    border: 0;
-  }
   .navbar-header{
     position: relative;
     z-index: 1; /* matters! */
@@ -216,17 +209,6 @@ body {
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
               /* DIVS */
-              /* VIDEOSTUFF */
-.videoinformation {
-  display: inline-block;
-  border: 2px solid #aaa;
-}
-.resp-videocontainer {
-  position: relative;
-  overflow: hidden;
-  padding-top: 5px;
-}
-              /* VIDEOSTUFF */
               /* PARALLAX */
 .bgimage-1{
   background-image: url("../images/mepic.JPG");
@@ -243,7 +225,7 @@ body {
   background-image: url('../images/mevaporwave(1).JPG');
   min-height: 100%;
 }
-.row{
+.rhobbies{
   padding-left: 20px;
   padding-right: 20px;
 }
