@@ -7,7 +7,7 @@
             </div>
         </a>
     </div>-->
-    <button onclick="location.href = '/HOBBIES/basketball';" id="basketball" class="btn btnhobby" >ＢＡＳＫＥＴＢＡＬＬ</button>
+    <button onclick="location.href = '/HOBBIES/basketball';" id="basketball" class="btn btnhobby" >b a s k e t b a l l</button>
 
     <!--<div class="col s6">
         <a href="./hobbies/dancing">
@@ -16,7 +16,7 @@
             </div>
         </a>
     </div>-->
-    <button onclick="location.href = '/HOBBIES/dancing';" id="dancing" class="btn btnhobby" >ＤＡＮＣＩＮＧ</button>
+    <button onclick="location.href = '/HOBBIES/dancing';" id="dancing" class="btn btnhobby" >d a n c i n g</button>
     <!--<div class="col s6">
         <a href="./hobbies/cubing">
             <div class="btn cubing">
@@ -24,11 +24,11 @@
             </div>
         </a>
     </div>-->
-    <button onclick="location.href = '/HOBBIES/cubing';" id="cubing" class="btn btnhobby" >ＣＵＢＩＮＧ</button>
-    <button onclick="location.href = '/HOBBIES/videogames';" id="videogames" class="btn btnhobby" >ＶＩＤＥＯＧＡＭＥＳ</button>
+    <button onclick="location.href = '/HOBBIES/cubing';" id="cubing" class="btn btnhobby" >c u b i n g</button>
+    <button onclick="location.href = '/HOBBIES/videogames';" id="videogames" class="btn btnhobby" >v i d e o g a m e s</button>
 
 </div>
-<script>
+<!--<script>
     /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/
     var $window = $(window);
     var lastWindowWidth = $(window).width();
@@ -42,13 +42,13 @@
             // EXECUTE YOUR CODE HERE
             if ($(window).width() < 498) {
                 console.log('Page is smaller than 498');
-                document.getElementById("h1hobbyindex").innerHTML = "Ｈ Ｏ Ｂ Ｂ Ｉ Ｅ Ｓ";
+                document.getElementById("h1hobbyindex").innerHTML = "HOBBIES";
             }
             else {
                 console.log('Page is bigger than 498');
-                document.getElementById("h1hobbyindex").innerHTML = "Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ";
+                document.getElementById("h1hobbyindex").innerHTML = "H O B B I E S";
             }
             lastWindowWidth = windowWidth;
         }
     });
-</script>
+</script>-->

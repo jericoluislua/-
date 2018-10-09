@@ -11,11 +11,15 @@
     <span>return</span>
 </button>
 </div>
-<div class="videoinformation panel panel-default">
-    <div class="panel-heading">
-        <p>A mini compilation I did after I noticed I played pretty well.</p>
-    </div>
-    <div class="resp-videcontainer" align="middle">
-        <iframe class="resp-iframe" src="https://www.youtube.com/embed/fNN88bEPqGo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="row">
+    <div class="col-md-6">
+        <div class="videoinformation panel panel-default">
+            <div class="panel-heading">
+                <p>A mini compilation I did after I noticed I played pretty well.</p>
+            </div>
+            <div class="embed-responsive embed-responsive-yt" align="middle">
+                <iframe class="resp-iframe" src="https://www.youtube.com/embed/fNN88bEPqGo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 </div>

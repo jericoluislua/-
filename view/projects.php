@@ -1,3 +1,4 @@
+</div>
 <?php
 /**
  * Created by PhpStorm.
@@ -26,7 +27,7 @@ $me = 'Jerico Luis Lua'?>
         <a href="http://tictactoe.jericolua.ch">Go to TIC TAC TOE</a>
     </p>
 </div>
-<script>
+<!--<script>
     /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/
     /* Do not waste time by creating jQuery object from window multiple times.
     *  Do it just once and store it in a variable. */
@@ -61,4 +62,4 @@ $me = 'Jerico Luis Lua'?>
             lastWindowWidth = windowWidth;
         }
     });
-</script>
+</script>-->

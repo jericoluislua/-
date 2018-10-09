@@ -16,8 +16,8 @@ class WEBSITEController
     {
         $view = new View('website');
         $view->title = '【Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ】';
-        $view->heading = 'Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ';
-        if($heading = "Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ")
+        $view->heading = 'W E B S I T E';
+        if($heading = "W E B S I T E")
         {
             $view->id = "h1index";
         }

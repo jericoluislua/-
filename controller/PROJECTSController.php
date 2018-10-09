@@ -12,8 +12,8 @@ class PROJECTSController
     {
         $view = new View('projects');
         $view->title = '【Ｐ　Ｒ　Ｏ　Ｊ　Ｅ　Ｃ　Ｔ　Ｓ】';
-        $view->heading = 'Ｐ　Ｒ　Ｏ　Ｊ　Ｅ　Ｃ　Ｔ　Ｓ';
-        if($heading = "Ｐ　Ｒ　Ｏ　Ｊ　Ｅ　Ｃ　Ｔ　Ｓ")
+        $view->heading = 'P R O J E C T S';
+        if($heading = "P R O J E C T S")
         {
             $view->id = "h1project";
         }

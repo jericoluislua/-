@@ -14,7 +14,11 @@ class FILESController
     {
         $view = new View('files');
         $view->title = '【Ｆ　Ｉ　Ｌ　Ｅ　Ｓ】';
-        $view->heading = 'Ｆ　Ｉ　Ｌ　Ｅ　Ｓ';
+        $view->heading = 'F I L E S';
+        if($heading = "F I L E S")
+        {
+            $view->id = "h1files";
+        }
         $view->display();
     }
 

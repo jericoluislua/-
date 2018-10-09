@@ -45,27 +45,6 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<script>
-    /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/
-    function headerChange(){
-        if($(window).width() < 387){
-            console.log('Page is smaller than 387');
-            document.getElementById("h1project").innerHTML = "ＰＲＯＪＥＣＴＳ";
-        }
-        else if ($(window).width() > 388 && $(window).width() < 569) {
-            console.log('Page is smaller than 498');
-            document.getElementById("h1index").innerHTML = "Ｗ Ｅ Ｂ Ｓ Ｉ Ｔ Ｅ";
-            document.getElementById("h1project").innerHTML = "Ｐ Ｒ Ｏ Ｊ Ｅ Ｃ Ｔ Ｓ";
-            document.getElementById("h1hobbyindex").innerHTML = "Ｈ Ｏ Ｂ Ｂ Ｉ Ｅ Ｓ";
-        }
-        else if($(window).width() <= 570){
-            console.log('Page is bigger than 498');
-            document.getElementById("h1index").innerHTML = "Ｗ　Ｅ　Ｂ　Ｓ　Ｉ　Ｔ　Ｅ";
-            document.getElementById("h1project").innerHTML = "Ｐ　Ｒ　Ｏ　Ｊ　Ｅ　Ｃ　Ｔ　Ｓ";
-            document.getElementById("h1hobbyindex").innerHTML = "Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ";
-        }
-    }
-</script>
 <div class="container">
 <div id="heading">
     <h1 id="<?= $id ?>"><?= $heading ?></h1>
