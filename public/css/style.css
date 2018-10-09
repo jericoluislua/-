@@ -209,6 +209,12 @@ body {
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
               /* DIVS */
+              /* VIDEOSTUFF */
+
+.embed-responsive-yt{
+  padding-bottom: 56.4%;
+}
+              /* VIDEOSTUFF */
               /* PARALLAX */
 .bgimage-1{
   background-image: url("../images/mepic.JPG");
