@@ -34,8 +34,8 @@ body {
 }
 /* for mobile designing */
 @media only screen and (max-device-width: 1024px) {
-  .filedetails{
-    margin-top: -26.4px;
+  .filedetails-sho{
+    margin-top: -20px;
   }
   .navbar-header{
     position: relative;
@@ -217,10 +217,6 @@ body {
 .groupname{
   border-bottom: 2px solid black;
 }
-.undertitle{
-  border-bottom: 2px solid black;
-  margin: 0 20px 0 20px;
-}
                        /* TITLES */
                        /* HEADING */
 .h{
@@ -232,9 +228,7 @@ body {
 .filename{
   margin: 0;
   padding-left: 15px;
-}
-.filedetails{
-  padding-top: 6.4px;
+  padding-top: 0.2px;
 }
                        /* VIDEOSTUFF */
 .embed-responsive-yt{
@@ -270,14 +264,22 @@ body {
 .rfilegroup-mid{
   margin-top:25px;
 }
-.innerrow{
+.rfileundergroup{
+  padding: 0 16px 0 16px;
+}
+.rcontent{
   padding-top: 20px;
-  margin: 0 26px 0 26px;
+  margin: 0 30px 0 30px;
   border-bottom: 2px dotted black;
 }
                        /* ROWS */
                        /* COLUMNS */
-.coldl{
+.undergroupname{
+  padding-top: 20px;
+  margin: 0 15px 0 15px;
+  border-bottom: 2px solid black;
+}
+.filedetails{
   display: inline-block;
   float: right;
   padding-right: 15px;
