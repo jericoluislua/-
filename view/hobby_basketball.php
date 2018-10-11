@@ -6,31 +6,59 @@
  * Time: 5:37 PM
  */
 ?>
-<button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
-    <i class="fa fa-angle-left"></i>
-    <span>return</span>
-</button>
+    <div class="btnreturndiv" id="btnreturnbball">
+        <button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
+            <i class="fa fa-angle-left"></i>
+            <span>return</span>
+        </button>
+    </div>
 </div>
-
 <div class="row">
     <div class="col-md-6">
-        <div class="videoinformation panel panel-default">
-            <div class="panel-heading">
-                <p>A mini compilation I did after I noticed I played pretty well.</p>
+        <!--<div class="videocontainer">
+            <div class="content-wrapper">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="front videoinformation  panel panel-default">
+                            <p class="videoinformationtext">A mini compilation I did after I noticed I played pretty well.</p>
+                        </div>
+                        <div class="video embed-responsive embed-responsive-yt back">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l1_KtRDLwr0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="embed-responsive embed-responsive-yt" align="middle">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l1_KtRDLwr0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>-->
+        <div class="videocontainer panel panel-default">
+            <div class="panel-heading">
+                    <p>A mini compilation I did after I noticed I played pretty well.</p>
+            </div>
+            <div class="video embed-responsive embed-responsive-yt">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l1_KtRDLwr0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="videoinformation panel panel-default">
+        <!--<div class="videocontainer">
+            <div class="content-wrapper">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="front videoinformation  panel panel-default">
+                            <p class="videoinformationtext">A very mini compilation of my buzzer beaters.</p>
+                        </div>
+                        <div class="video embed-responsive embed-responsive-yt back">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9tYd-jhdyh8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        <div class="videocontainer panel panel-default">
             <div class="panel-heading">
                 <p>A very mini compilation of my buzzer beaters.</p>
             </div>
-            <div class="embed-responsive embed-responsive-yt" align="middle">
+            <div class="embed-responsive embed-responsive-yt">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9tYd-jhdyh8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
+        </div>
     </div>
-</div>

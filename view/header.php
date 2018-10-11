@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
     <title><?= $title ?></title>
 
     <!-- Bootstrap core CSS -->
@@ -48,3 +49,11 @@
 <div class="container">
 <div id="heading">
     <h1 id="<?= $id ?>"><?= $heading ?></h1>
+    <script>
+        var h1hobbylength = document.getElementById("h1hobby").length;
+        var h1hobbywidth = document.getElementById("h1hobby").style.width;
+        if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-width: 700px)").matches){
+            document.getElementById("heading").style.marginBottom = 10px;
+        }
+
+    </script>

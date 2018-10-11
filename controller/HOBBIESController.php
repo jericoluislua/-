@@ -47,7 +47,7 @@ class HOBBIESController
     public function cubing()
     {
         $view = new View('hobby_cubing');
-        $view->title = '【Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ　|　Ｄ　Ａ　Ｎ　Ｃ　Ｉ　Ｎ　Ｇ】';
+        $view->title = '【Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ　|　Ｃ　Ｕ　Ｂ　Ｉ　Ｎ　Ｇ】';
         $view->heading = 'c u b i n g';
         if($heading = "c u b i n g")
         {

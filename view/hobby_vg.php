@@ -6,8 +6,10 @@
  * Time: 14:14
  */
 ?>
-<button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
-    <i class="fa fa-angle-left"></i>
-    <span>return</span>
-</button>
+    <div class="btnreturndiv" id="btnreturnvg">
+        <button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
+            <i class="fa fa-angle-left"></i>
+            <span>return</span>
+        </button>
+    </div>
 </div>

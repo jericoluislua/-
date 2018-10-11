@@ -34,8 +34,8 @@ if(!isset($_SESSION['openfiles'])){
 else if(isset($_SESSION['openfiles'])){
     ?>
     </div>
-    <div class="row rfilegroup zeugnis">
-        <h2 class="col groupname h hzeugnis">Zeugnisse</h2>
+    <div class="row rfilecontainer zeugnis">
+        <h2 class="col containername h2 hzeugnis">Zeugnisse</h2>
 
         <div class="row rcontent rbwd">
             <h4 class="filename col-md-6">BWD</h4>
@@ -52,8 +52,8 @@ else if(isset($_SESSION['openfiles'])){
         </div>
     </div>
 
-    <div class="row rfilegroup rfilegroup-mid uek">
-        <h2 class="col groupname h huek">ÜKs</h2>
+    <div class="row rfilecontainer rfilecontainer-mid uek">
+        <h2 class="col containername h2 huek">ÜKs</h2>
 
         <div class="row rcontent ruek101">
             <h4 class="filename col-md-6">M101 - Webauftritt erstellen und veröffentlichen</h4>
@@ -126,11 +126,11 @@ else if(isset($_SESSION['openfiles'])){
         </div>
     </div>
 
-    <div class="row rfilegroup rfilegroup-mid zertifikat">
-        <h2 class="col groupname h hzertifikat">Zertifikate</h2>
+    <div class="row rfilecontainer rfilecontainer-mid zertifikat">
+        <h2 class="col containername h2 hzertifikat">Zertifikate</h2>
 
-        <div class="row rfileundergroup rzertinf">
-            <h3 class="col undergroupname h hzertinf">Informatik</h3>
+        <div class="row rfileundercontainer rzertinf">
+            <h3 class="col undercontainername h2 hzertinf">Informatik</h3>
 
             <div class="row rcontent rsap">
                 <h4 class="filename col-md-6">Business Process Integration with SAP</h4>
@@ -149,8 +149,8 @@ else if(isset($_SESSION['openfiles'])){
             </div>
         </div>
 
-        <div class="row rfileundergroup rzertson">
-            <h3 class="col undergroupname h hzertson">Sonstige</h3>
+        <div class="row rfileundercontainer rzertson">
+            <h3 class="col undercontainername h2 hzertson">Sonstige</h3>
 
             <div class="row rcontent rabacus">
                 <h4 class="filename col-md-6">Abacus</h4>
