@@ -8,8 +8,35 @@ body {
 #filebtn{
   float: left;
 }
+
 /*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) {
+  #bg{
+    background: url("../images/mevaporwave(3).JPG") no-repeat center;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    filter: blur(3px);
+  }
+  /*#bg:hover{
+    filter: none;
+    transition: 2s;
+  }
+  #bg:hover + #maincontainer{
+
+  }*/
+  #maincontainer{
+    background-color: white;
+    -webkit-box-shadow: 0 0 15px;
+    -moz-box-shadow: 0 0 15px;
+    box-shadow: 0 0 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
   .navbar-brand{
     position: relative;
     z-index: 1; /* matters! */
@@ -70,7 +97,7 @@ body {
   }
 }
 /* !!!FOR MOBILE DESIGNING!!! */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 767px){
   .btnreturn{
     color: #05ffa1;
     border: 1px solid #05ffa1;
@@ -89,21 +116,25 @@ body {
   .btnreturn-ing{
     margin-top: -17px;
   }
-  
+
 
   .filedetails-sho{
     margin-top: -20px;
   }
-
-
-
-}
-@media only screen and (max-device-width: 767px){
+  #heading{
+    text-align: center;
+  }
   .navbar-header{
     background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
   }
+  .bgimage-1, .bgimage-2{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
-@media only screen and (min-device-width: 379px){
+@media only screen and (min-device-width: 415px){
   .btnreturn{
     margin: -17px 0 0 10px;
     color: #05ffa1;
@@ -112,15 +143,13 @@ body {
     font-size: 18px;
   }
 }
-@media only screen and (min-device-width: 378px) and (max-device-width: 378px){
+/*@media only screen and (min-device-width: 378px) and (max-device-width: 378px){
   .btnreturn{
     margin-top: -17px;
   }
-}
-@media only screen and (max-device-width: 376px) {
-  #heading{
-    text-align: center;
-  }
+}*/
+@media only screen and (max-device-width: 414px) {
+
   #btnreturnbball{
     padding-left: 163px;
   }
@@ -285,19 +314,15 @@ body {
                        /* VIDEOSTUFF */
                        /* PARALLAX */
 .bgimage-1{
-  background-image: url("../images/mepic.JPG");
+  min-height: 100%;
+  position: relative;
+  background: url("../images/mepic.JPG") no-repeat top fixed;
+  height: 500px;
+  margin: 0 -15px;
+}
 
-}
-.bgimage-1, .bgimage-2{
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .bgimage-2{
   background-image: url('../images/mevaporwave(1).JPG');
-  min-height: 100%;
 }
                        /* PARALLAX */
                        /* ROWS */
@@ -332,7 +357,24 @@ body {
   float: right;
   padding-right: 15px;
 }
-
+/*------------------------SPAN-------------------------------*/
+#vppink{
+  color: #ff71ce;
+}
+#vpviol{
+  color: #b967ff;
+}
+#vpblue{
+  color: #33ccff;
+}
+#vpgree{
+  color: #05ffa1;
+}
+/*------------------------FOOTER-----------------------------*/
+.logo{
+  height: 50px;
+  width: 50px;
+}
               /* content container for the webpage */
               /*.content-wrapper {
 

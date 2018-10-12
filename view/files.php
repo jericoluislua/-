@@ -34,7 +34,7 @@ if(!isset($_SESSION['openfiles'])){
 else if(isset($_SESSION['openfiles'])){
     ?>
     </div>
-    <div class="row rfilecontainer zeugnis">
+    <div class="row rfilecontainer" id="rzeugnis">
         <h2 class="col containername h2 hzeugnis">Zeugnisse</h2>
 
         <div class="row rcontent rbwd">
@@ -52,89 +52,67 @@ else if(isset($_SESSION['openfiles'])){
         </div>
     </div>
 
-    <div class="row rfilecontainer rfilecontainer-mid uek">
+    <div class="row rfilecontainer rfilecontainer-mid" id="ruek">
         <h2 class="col containername h2 huek">ÜKs</h2>
 
         <div class="row rcontent ruek101">
             <h4 class="filename col-md-6">M101 - Webauftritt erstellen und veröffentlichen</h4>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade" href="../public/images/mepic.JPG" download>download</a>
+            <div class="filedetails filedetails-sho">
+                <a title="grade + teacher's feedback + daily journal" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek105">
             <h4 class="filename col-md-6">M105 - Datenbanken mit SQL bearbeiten</h4>
-            <div class="filedetails filedetails-lon" align="right">
+            <div class="filedetails filedetails-sho">
                 <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek302">
             <h4 class="filename col-md-10">M302 - Fortgeschrittene Funktionen von Office Werkzeuge nutzen</h4>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon " align="right">
+            <div class="filedetails filedetails-sho">
                 <a title="grade" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek304">
             <h4 class="filename col-md-8">M304 - Einzelplatz-Computer in Betrieb nehmen</h4>
-            <div class="filedetails filedetails-lon" align="right">
+            <div class="filedetails filedetails-sho">
                 <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek305">
             <h4 class="filename col-md-10">M305 - Betriebssysteme installieren, konfigurieren und installieren</h4>
-            <div class="filedetails filedetails-lon" align="right">
+            <div class="filedetails filedetails-sho">
                 <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon " align="right">
-                <a title="grade" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek307">
             <h4 class="filename col-md-8">M307 - Interaktive Webseite mit Formular erstellen</h4>
-            <div class="filedetails filedetails-lon" align="right">
+            <div class="filedetails filedetails-sho">
                 <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek337">
             <h4 class="filename col-md-6">M337 - Mobile-Applikation realisieren</h4>
-            <div class="filedetails filedetails-lon" align="right">
+            <div class="filedetails filedetails-sho">
                 <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
-            </div>
-            <div class="filedetails filedetails-lon" align="right">
-                <a title="grade" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
     </div>
 
-    <div class="row rfilecontainer rfilecontainer-mid zertifikat">
-        <h2 class="col containername h2 hzertifikat">Zertifikate</h2>
+    <div class="row rfilecontainer rfilecontainer-mid" id="rzertifikat">
+        <h2 class="col containername h2" id="hzertifikat">Zertifikate</h2>
 
         <div class="row rfileundercontainer rzertinf">
             <h3 class="col undercontainername h2 hzertinf">Informatik</h3>
 
             <div class="row rcontent rsap">
                 <h4 class="filename col-md-6">Business Process Integration with SAP</h4>
-
                 <div class="filedetails filedetails-lon" align="right">
                     <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
                 </div>
@@ -142,7 +120,6 @@ else if(isset($_SESSION['openfiles'])){
 
             <div class="row rcontent rsap-abap">
                 <h4 class="filename col-md-6">SAP-Einführung in die ABAP Entwicklung</h4>
-
                 <div class="filedetails filedetails-lon" align="right">
                     <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
                 </div>
@@ -150,9 +127,9 @@ else if(isset($_SESSION['openfiles'])){
         </div>
 
         <div class="row rfileundercontainer rzertson">
-            <h3 class="col undercontainername h2 hzertson">Sonstige</h3>
+            <h3 class="col undercontainername h2" id="hzertson">Sonstige</h3>
 
-            <div class="row rcontent rabacus">
+            <div class="row rcontent" id="rabacus">
                 <h4 class="filename col-md-6">Abacus</h4>
                 <div class="filedetails filedetails-sho">
                     <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
@@ -161,6 +138,16 @@ else if(isset($_SESSION['openfiles'])){
         </div>
     </div>
 
+    <div class="row rfilecontainer rfilecontainer-mid" id="rschlehre">
+        <h3 class="col containername h2" id="hschlehre">Schnupperlehre</h3>
+
+        <div class="row rcontent" id="rpentag">
+            <h4 class="filename col-md-6">Pentag Informatik AG</h4>
+            <div class="filedetails filedetails-sho">
+                <a title="certificate + feedback" href="../public/images/test.JPG" download>download</a>
+            </div>
+        </div>
+    </div>
     <?php
 }
 ?>

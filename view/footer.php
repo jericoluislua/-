@@ -1,8 +1,23 @@
-        <hr>
-        <footer>
-          <p>Copyright MVC Framework from BBC
-              <br/> A project by Jerico Lua</p>
-        </footer>
+            <hr>
+            <footer>
+              <p>Copyright MVC Framework from BBC
+                  <br/>
+                  <!--<a href="mailto:jericoluislua@yahoo.com.ph" title="jericoluislua@yahoo.com.ph"><img src="/images/micon/email-logo.svg" class="logo"/></a>
+                  <a href="https://github.com/jericoluislua" title="Most of my school projects are in here."><img src="/images/micon/github-logo.svg" class="logo"/></a>-->
+                  <a href="https://www.instagram.com/jclt_nogitsune/" title="My personal instagram account"><img src="/images/iconset-1/ig-logo.svg" class="logo"/></a>
+                  <a href="https://www.facebook.com/jericoluislua/" title="My personal facebook account"><img src="/images/iconset-1/fb-logo.svg" class="logo"/></a>
+                  <!--<a href="https://www.youtube.com/jericoluislua/" title="Gaming/Unboxing videos"><img src="/images/micon/yt-logo.svg" class="logo"/></a>-->
+                  <a href="https://www.youtube.com/jericoluislua/"><img src="/images/iconset-1/yt-logo.svg" class="logo"/></a>
+
+                  <script>
+                      if(window.matchMedia("(max-device-width: 378px)").matches){
+                  </script>
+                        <br/>
+                  <script>}</script>
+
+
+              </p>
+            </footer>
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
