@@ -31,8 +31,7 @@ body {
   }
 
   .btnreturn{
-    margin-top: -17px;
-    margin-left: 10px;
+    margin: -17px 0 0 10px;
     color: #05ffa1;
     border: 1px solid #05ffa1;
     background-color: transparent;
@@ -90,12 +89,7 @@ body {
   .btnreturn-ing{
     margin-top: -17px;
   }
-  #btnreturnbball{
-    padding: 0 41px 0 165px;
-  }
-  #btnreturnvg{
-    padding: 0 8px 0 198px;
-  }
+  
 
   .filedetails-sho{
     margin-top: -20px;
@@ -105,6 +99,31 @@ body {
   }
 
 
+}
+@media only screen and (min-device-width: 379px){
+  .btnreturn{
+    margin: -17px 0 0 10px;
+    color: #05ffa1;
+    border: 1px solid #05ffa1;
+    background-color: transparent;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 378px) and (max-device-width: 378px){
+  .btnreturn{
+    margin-top: -17px;
+  }
+}
+@media only screen and (max-device-width: 376px) {
+  #heading{
+    text-align: center;
+  }
+  #btnreturnbball{
+    padding-left: 163px;
+  }
+  #btnreturnvg{
+    padding-left: 198px;
+  }
 }
               /* GENERAL*/
 
