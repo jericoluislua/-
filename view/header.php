@@ -52,8 +52,17 @@
     <script>
         var h1hobbylength = document.getElementById("h1hobby").length;
         var h1hobbywidth = document.getElementById("h1hobby").style.width;
-        if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-width: 700px)").matches){
+        if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
             document.getElementById("heading").style.marginBottom = 10px;
         }
+        function is_touch_device() {
+            return (('ontouchstart' in window)
+            || (navigator.MaxTouchPoints > 0)
+            || (navigator.msMaxTouchPoints > 0));
+        }
 
+        if (!is_touch_device() && window.matchMedia("(min-device-width: 767px)").matches) {
+            document.getElementsByClassName("navbar-brand").style.background = dom.style.backgroundImage = '-moz-linear-gradient('
+                + orientation + 'to right' + colorOne + ', #33ccff 0%' + colorTwo + ', #b967ff 0%' + colorThree + ', #05ffa1 0%' + colorFour ', #ff71ce 100%')';
+        }
     </script>
