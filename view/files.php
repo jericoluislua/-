@@ -58,14 +58,14 @@ else if(isset($_SESSION['openfiles'])){
         <div class="row rcontent ruek101">
             <h4 class="filename col-md-6">M101 - Webauftritt erstellen und veröffentlichen</h4>
             <div class="filedetails filedetails-sho">
-                <a title="grade + teacher's feedback + daily journal" href="../public/images/mepic.JPG" download>download</a>
+                <a title="grade + teacher's feedback + daily journal" href="../public/images/mepic.JPEG" download>download</a>
             </div>
         </div>
 
         <div class="row rcontent ruek105">
             <h4 class="filename col-md-6">M105 - Datenbanken mit SQL bearbeiten</h4>
             <div class="filedetails filedetails-sho">
-                <a title="grade + teacher's feedback + daily journal" href="../public/images/test.JPG" download>download</a>
+                <a title="grade + teacher's feedback + daily journal" href="../public/images/mepic.JPG" download>download</a>
             </div>
         </div>
 
