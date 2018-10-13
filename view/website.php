@@ -12,13 +12,16 @@
  */
 ?>
 <p>
-    You might be wondering, why did I choose this color scheme?
+    What's up with the color scheme you might ask?
     <br>
     It has something to do with vaporwave. This version of <span id="vppink">pink</span>, <span id="vpviol">violet</span>, <span id="vpblue">blue</span> and <span id="vpgree">green</span> is very much associated with it.
     <br>
     Now you might be asking yourself, what the hell even is vaporwave?
     <br>
-    Vaporwave is a music genre I myself really like. It's very random but at the same time still very nice and enjoyable.
+    Vaporwave is a music genre I myself really like. It's very random and extra, however it is still a beautiful and good genre.
+    <br>
+    I don't just like Vaporwave because it sounds good, I like it because it reminds me of me. I can be really extra and random at times but even then I can function correctly.
+
 </p>
 <!--<script>
     /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/

@@ -8,7 +8,7 @@
 
 </div>
 <script>
-    document.getElementById("basketball").innerText = window.location.origin;
+    /*document.getElementById("basketball").innerText = window.location.origin;*/
     /*/!*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*!/
     var $window = $(window);
     var lastWindowWidth = $(window).width();

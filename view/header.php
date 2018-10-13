@@ -22,7 +22,7 @@
     <![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,14 +31,14 @@
                 <span class="icon-bar middle-bar"></span>
                 <span class="icon-bar bottom-bar"></span>
             </button>
-            <a href="/" class="navbar-brand" id="website">ＪＬＬ</a>
+            <a href="/" class="navbar-brand " id="website" onclick="headerChange()">ＪＬＬ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav centered-navbar">
-                <li><a href="/FILES" class='link' id="file" onclick="headerChange();">ＦＩＬＥＳ</a></li>
-                <li><a href='/PROJECTS' class='link' id="project" onclick="headerChange();">ＰＲＯＪＥＣＴＳ</a></li>
-                <li><a href='/ME' class='link' id="life" onclick="headerChange();">ＭＥ</a></li>
-                <li><a href="/HOBBIES" class='link' id="hobby" onclick="headerChange();">ＨＯＢＢＩＥＳ</a></li>
+                <li><a href="/FILES"  id="file" onclick="headerChange()">ＦＩＬＥＳ</a></li>
+                <li><a href='/PROJECTS'  id="project" onclick="headerChange()">ＰＲＯＪＥＣＴＳ</a></li>
+                <li><a href='/ME'  id="life" onclick="headerChange()">ＭＥ</a></li>
+                <li><a href="/HOBBIES"  id="hobby" onclick="headerChange()">ＨＯＢＢＩＥＳ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/LOGOUT" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
@@ -51,13 +51,17 @@
     <div id="heading">
         <h1 id="<?= $id ?>"><?= $heading ?></h1>
 <script>
-    if(window.location.origin === "jburrogu.com"){
-        document.getElementById("h1index").innerText = "it works?"
-    }
-
-
     var h1hobbylength = document.getElementById("h1hobby").length;
     var h1hobbywidth = document.getElementById("h1hobby").style.width;
+    var website = document.getElementById("website");
+    var file = document.getElementById("file");
+    var project = document.getElementById("project");
+    var life = document.getElementById("life");
+    var hobby = document.getElementById("hobby");
+
+
+    
+
     if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
         document.getElementById("heading").style.marginBottom = 10px;
     }
