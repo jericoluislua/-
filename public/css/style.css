@@ -27,6 +27,10 @@ body {
   #bg:hover + #maincontainer{
 
   }*/
+  #activew{
+    background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
+    color: white;
+  }
   #maincontainer{
     background-color: white;
     -webkit-box-shadow: 0 0 15px;
@@ -126,6 +130,7 @@ body {
   }
   .navbar-header{
     background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
+    color: white;
   }
   .bgimage-1, .bgimage-2{
     background-attachment: fixed;
@@ -162,10 +167,7 @@ body {
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*------------------------NAVIGATION BAR---------------------*/
-#activew{
-  background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
-  color: white;
-}
+
 #activef{
   background-color: #ff71ce;
   color: white;
