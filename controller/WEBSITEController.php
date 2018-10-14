@@ -20,6 +20,15 @@ class WEBSITEController
         if($heading = "W E B S I T E")
         {
             $view->id = "h1index";
+            $view->activew = "activew";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            $view->activeh = "hobby";
+            if($view->activew != "activew"){
+                $view->activew = "website";
+            }
+
         }
         $view->display();
     }

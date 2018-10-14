@@ -162,29 +162,25 @@ body {
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*------------------------NAVIGATION BAR---------------------*/
-.activew{
+#activew{
   background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
-  text-decoration: underline;
+  color: white;
 }
-.activef{
+#activef{
   background-color: #ff71ce;
   color: white;
-  text-decoration: underline;
 }
-.activep{
+#activep{
   background-color: #b967ff;
   color: white;
-  text-decoration: underline;
 }
-.activel{
+#activel{
   background-color: #33ccff;
   color: white;
-  text-decoration: underline;
 }
-.activeh{
+#activeh{
   background-color: #05ffa1;
   color: white;
-  text-decoration: underline;
 }
 .navbar{
   border: none;

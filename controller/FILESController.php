@@ -18,6 +18,16 @@ class FILESController
         if($heading = "F I L E S")
         {
             $view->id = "h1files";
+            $view->activef = "activef";
+            $view->activew = "website";
+            $view->activep = "project";
+            $view->activel = "life";
+            $view->activeh = "hobby";
+            if($view->activef != "activef"){
+                $view->activef = "file";
+            }
+        }
+        else{
         }
         $view->display();
     }

@@ -16,6 +16,15 @@ class MEController
         if($heading = "M E")
         {
             $view->id = "h1me";
+            $view->activel = "activel";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activeh = "hobby";
+            if($view->activel != "activel"){
+                $view->activel = "life";
+            }
+
         }
         $view->display();
     }

@@ -22,7 +22,7 @@
     <![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,14 +31,14 @@
                 <span class="icon-bar middle-bar"></span>
                 <span class="icon-bar bottom-bar"></span>
             </button>
-            <a href="/" class="navbar-brand " id="website" onclick="headerChange()">ＪＬＬ</a>
+            <a href="/" class="navbar-brand" id="<?= $activew ?>" onclick="headerChange()">ＪＬＬ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav centered-navbar">
-                <li><a href="/FILES"  id="file" onclick="headerChange()">ＦＩＬＥＳ</a></li>
-                <li><a href='/PROJECTS'  id="project" onclick="headerChange()">ＰＲＯＪＥＣＴＳ</a></li>
-                <li><a href='/ME'  id="life" onclick="headerChange()">ＭＥ</a></li>
-                <li><a href="/HOBBIES"  id="hobby" onclick="headerChange()">ＨＯＢＢＩＥＳ</a></li>
+                <li><a href="/FILES" id="<?= $activef ?>" onclick="headerChange()">ＦＩＬＥＳ</a></li>
+                <li><a href='/PROJECTS' id="<?= $activep ?>" onclick="headerChange()">ＰＲＯＪＥＣＴＳ</a></li>
+                <li><a href='/ME' id="<?= $activel ?>" onclick="headerChange()">ＭＥ</a></li>
+                <li><a href="/HOBBIES" id="<?= $activeh ?>" onclick="headerChange()">ＨＯＢＢＩＥＳ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/LOGOUT" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
@@ -60,7 +60,10 @@
     var hobby = document.getElementById("hobby");
 
 
-    
+    $("a").on("click", function () {
+        $("a.active").removeClass("active");
+        $(this).addClass("active");
+    });
 
     if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
         document.getElementById("heading").style.marginBottom = 10px;

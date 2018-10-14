@@ -16,6 +16,14 @@ class HOBBIESController
         if($heading = "H O B B I E S")
         {
             $view->id = "h1hobbyindex";
+            $view->activeh = "activeh";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            if($view->activeh != "activeh"){
+                $view->activeh = "hobby";
+            }
         }
         $view->display();
     }
@@ -28,6 +36,14 @@ class HOBBIESController
         if($heading = "b a s k e t b a l l")
         {
             $view->id = "h1hobby";
+            $view->activeh = "activeh";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            if($view->activeh != "activeh"){
+                $view->activeh = "hobby";
+            }
         }
         $view->display();
     }
@@ -40,6 +56,14 @@ class HOBBIESController
         if($heading = "d a n c i n g")
         {
             $view->id = "h1hobby";
+            $view->activeh = "activeh";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            if($view->activeh != "activeh"){
+                $view->activeh = "hobby";
+            }
         }
         $view->display();
     }
@@ -52,6 +76,14 @@ class HOBBIESController
         if($heading = "c u b i n g")
         {
             $view->id = "h1hobby";
+            $view->activeh = "activeh";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            if($view->activeh != "activeh"){
+                $view->activeh = "hobby";
+            }
         }
         $view->display();
     }
@@ -63,6 +95,14 @@ class HOBBIESController
         if($heading = "v i d e o g a m e s")
         {
             $view->id = "h1hobby";
+            $view->activeh = "activeh";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            if($view->activeh != "activeh"){
+                $view->activeh = "hobby";
+            }
         }
         $view->display();
     }

@@ -16,6 +16,14 @@ class PROJECTSController
         if($heading = "P R O J E C T S")
         {
             $view->id = "h1project";
+            $view->activep = "activep";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activel = "life";
+            $view->activeh = "hobby";
+            if($view->activep != "activep"){
+                $view->activep = "project";
+            }
         }
         $view->display();
 
