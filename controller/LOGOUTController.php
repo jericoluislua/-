@@ -13,7 +13,7 @@ class LOGOUTController
             session_start();
             session_destroy();
             session_unset($_SESSION['openfiles']);
-            header('Location: /FILES');
         }
+        header('Location: /FILES');
     }
 }
