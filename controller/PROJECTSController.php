@@ -15,6 +15,9 @@ class PROJECTSController
         $view->heading = 'P R O J E C T S';
         if($heading = "P R O J E C T S")
         {
+            $view->btnw = "off";
+            $view->bg = "bgprojs";
+            $view->container = "contproj";
             $view->id = "h1project";
             $view->activep = "activep";
             $view->activew = "website";

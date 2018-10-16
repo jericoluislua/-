@@ -15,6 +15,9 @@ class MEController
         $view->heading = 'M E';
         if($heading = "M E")
         {
+            $view->btnw = "off";
+            $view->bg = "bglife";
+            $view->container = "contlife";
             $view->id = "h1me";
             $view->activel = "activel";
             $view->activew = "website";

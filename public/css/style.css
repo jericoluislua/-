@@ -11,27 +11,44 @@ body {
 
 /*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 @media only screen and (min-device-width: 768px) {
-  #bg{
-    /*background: url("../images/mevaporwave(3).JPG") no-repeat center;*/
+  #bgindex{
+    background: url("../images/mevaporwave(1).JPG") no-repeat center;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
     position: fixed;
     height: 100%;
     width: 100%;
-    filter: blur(3px);
+    /*filter: blur(3px);*/
   }
-  /*#bg:hover{
+  #bgindex:hover{
     filter: none;
     transition: 2s;
   }
-  #bg:hover + #maincontainer{
+  #btnwelcome{
+    transition: background-color 10s ease;
+    transition: color 1s ease;
+    margin-bottom: 0.5em;
+    color: #05ffa1;
+    border: 4px solid #05ffa1;
+    background-color: inherit;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  #index{
+    display: none;
+    /*transition: 200s;*/
+  }
+  #off{
+    display: none;
+  }
+  #bgprojs{
 
-  }*/
+  }
   #activew{
     background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
     color: white;
   }
-  #maincontainer{
+  .maincontainer{
     background-color: white;
     -webkit-box-shadow: 0 0 15px;
     -moz-box-shadow: 0 0 15px;

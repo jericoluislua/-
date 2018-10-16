@@ -17,6 +17,9 @@ class FILESController
         $view->heading = 'F I L E S';
         if($heading = "F I L E S")
         {
+            $view->btnw = "off";
+            $view->bg = "bgfiles";
+            $view->container = "contfile";
             $view->id = "h1files";
             $view->activef = "activef";
             $view->activew = "website";

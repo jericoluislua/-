@@ -31,14 +31,14 @@
                 <span class="icon-bar middle-bar"></span>
                 <span class="icon-bar bottom-bar"></span>
             </button>
-            <a href="/" class="navbar-brand" id="<?= $activew ?>" onclick="headerChange()">ＪＬＬ</a>
+            <a href="/" class="navbar-brand" id="<?= $activew ?>">ＪＬＬ</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav centered-navbar">
-                <li><a href="/FILES" id="<?= $activef ?>" onclick="headerChange()">ＦＩＬＥＳ</a></li>
-                <li><a href='/PROJECTS' id="<?= $activep ?>" onclick="headerChange()">ＰＲＯＪＥＣＴＳ</a></li>
-                <li><a href='/ME' id="<?= $activel ?>" onclick="headerChange()">ＭＥ</a></li>
-                <li><a href="/HOBBIES" id="<?= $activeh ?>" onclick="headerChange()">ＨＯＢＢＩＥＳ</a></li>
+                <li><a href="/FILES" id="<?= $activef ?>">ＦＩＬＥＳ</a></li>
+                <li><a href='/PROJECTS' id="<?= $activep ?>">ＰＲＯＪＥＣＴＳ</a></li>
+                <li><a href='/ME' id="<?= $activel ?>">ＭＥ</a></li>
+                <li><a href="/HOBBIES" id="<?= $activeh ?>">ＨＯＢＢＩＥＳ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/LOGOUT" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
@@ -46,24 +46,21 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div id="bg"></div>
-<div class="container" id="maincontainer">
-    <div id="heading">
-        <h1 id="<?= $id ?>"><?= $heading ?></h1>
+<div id="<?= $bg ?>" align="center">
+    <button id="<?= $btnw ?>" class="btn" onclick="openIndex()">Ｊ　Ｌ　Ｌ</button>
+</div>
+<div class="container maincontainer" id="<?= $container ?>">
+        <div id="heading">
+            <h1 id="<?= $id ?>"><?= $heading ?></h1>
 <script>
     var h1hobbylength = document.getElementById("h1hobby").length;
     var h1hobbywidth = document.getElementById("h1hobby").style.width;
-    var website = document.getElementById("website");
-    var file = document.getElementById("file");
-    var project = document.getElementById("project");
-    var life = document.getElementById("life");
-    var hobby = document.getElementById("hobby");
+    var contindex = document.getElementById("index");
+    var btnwelcome = document.getElementById("btnwelcome");
 
-
-    $("a").on("click", function () {
-        $("a.active").removeClass("active");
-        $(this).addClass("active");
-    });
+    if((contindex.style.display = "none") || (contindex.style.display = "block")){
+        btnwelcome.
+    }
 
     if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
         document.getElementById("heading").style.marginBottom = 10px;

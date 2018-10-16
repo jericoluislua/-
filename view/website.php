@@ -21,5 +21,20 @@
     Vaporwave is a music genre I really like.
     <br>
     How I think can be really <b>extra</b>, <b>weird</b> and <b>out of the box</b>, just like Vaporwave. No Vaporwave song sounds the same.
-
 </p>
+<script>
+    var contindex = document.getElementById("index").style;
+    var contbg = document.getElementById("bgindex").style;
+    var btnwelcome = document.getElementById("btnwelcome").style;
+
+    function openIndex() {
+        if(contindex.display = "none"){
+            contindex.display = "block";
+            btnwelcome.display = "none";
+            contbg.filter = "blur(3px)";
+//            contindex.transition = "all 200s";
+        }else if(contindex.display = "block"){
+            btnwelcome.display = "none";
+        }
+    }
+</script>

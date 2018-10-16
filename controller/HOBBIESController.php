@@ -15,6 +15,9 @@ class HOBBIESController
         $view->heading = 'H O B B I E S';
         if($heading = "H O B B I E S")
         {
+            $view->btnw = "off";
+            $view->bg = "bghobby";
+            $view->container = "conthobby";
             $view->id = "h1hobbyindex";
             $view->activeh = "activeh";
             $view->activew = "website";
@@ -35,6 +38,9 @@ class HOBBIESController
 
         if($heading = "b a s k e t b a l l")
         {
+            $view->btnw = "off";
+            $view->bg = "bgbball";
+            $view->container = "conthobbybball";
             $view->id = "h1hobby";
             $view->activeh = "activeh";
             $view->activew = "website";
@@ -55,6 +61,9 @@ class HOBBIESController
         $view->heading = 'd a n c i n g';
         if($heading = "d a n c i n g")
         {
+            $view->btnw = "off";
+            $view->bg = "bgdance";
+            $view->container = "conthobbyd";
             $view->id = "h1hobby";
             $view->activeh = "activeh";
             $view->activew = "website";
@@ -75,6 +84,9 @@ class HOBBIESController
         $view->heading = 'c u b i n g';
         if($heading = "c u b i n g")
         {
+            $view->btnw = "off";
+            $view->bg = "bgcubin";
+            $view->container = "conthobbyc";
             $view->id = "h1hobby";
             $view->activeh = "activeh";
             $view->activew = "website";
@@ -94,6 +106,9 @@ class HOBBIESController
         $view->heading = 'v i d e o g a m e s';
         if($heading = "v i d e o g a m e s")
         {
+            $view->btnw = "off";
+            $view->bg = "bgvg";
+            $view->container = "conthobbyvg";
             $view->id = "h1hobby";
             $view->activeh = "activeh";
             $view->activew = "website";

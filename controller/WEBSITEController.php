@@ -19,6 +19,9 @@ class WEBSITEController
         $view->heading = 'W E B S I T E';
         if($heading = "W E B S I T E")
         {
+            $view->btnw = "btnwelcome";
+            $view->bg = "bgindex";
+            $view->container = "index";
             $view->id = "h1index";
             $view->activew = "activew";
             $view->activef = "file";
