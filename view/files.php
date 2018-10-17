@@ -22,7 +22,7 @@ if(!isset($_SESSION['openfiles'])){
                     <script>
                         $(document.getElementById("inputpass")).width() == 80%;
                     </script>
-                    <div class="col-md-4">
+                    <div class="col-md-4" align="center">
                         <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md" required>
                         <input id="filebtn" name="send" type="submit" class="btn" value="Show secured files">
                     </div>

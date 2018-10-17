@@ -29,10 +29,11 @@
 
     function openIndex() {
         if(contindex.display = "none"){
+            //contindex.transition = "all 200s";
             contindex.display = "block";
             btnwelcome.display = "none";
-            contbg.filter = "blur(3px)";
-//            contindex.transition = "all 200s";
+            contbg.filter = "blur(2px)";
+            contbg.transform = "scale(1.01)";
         }else if(contindex.display = "block"){
             btnwelcome.display = "none";
         }

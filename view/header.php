@@ -59,14 +59,12 @@
     var btnwelcome = document.getElementById("btnwelcome");
 
     if((contindex.style.display = "none") || (contindex.style.display = "block")){
-        btnwelcome.
     }
 
     if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
         document.getElementById("heading").style.marginBottom = 10px;
     }
 
-    if()
 
     function is_touch_device() {
         return (('ontouchstart' in window)

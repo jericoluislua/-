@@ -5,12 +5,13 @@ body {
   width: 100%;
 }
 
-#filebtn{
-  float: left;
-}
+
 
 /*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 @media only screen and (min-device-width: 768px) {
+  #filebtn{
+    float: left;
+  }
   #bgindex{
     background: url("../images/mevaporwave(1).JPG") no-repeat center;
     -webkit-background-size:100% 100%;
@@ -18,7 +19,7 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    /*filter: blur(3px);*/
+    filter: blur(2px);
   }
   #bgindex:hover{
     filter: none;
@@ -117,6 +118,13 @@ body {
 }
 /* !!!FOR MOBILE DESIGNING!!! */
 @media only screen and (max-device-width: 767px){
+  #filebtn{
+    margin: 10px auto 0 auto;
+    text-align: center;
+  }
+  #file{
+    display: none;
+  }
   #btnwelcome{
     display: none;
   }
