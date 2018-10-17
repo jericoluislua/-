@@ -31,11 +31,11 @@
         if(contindex.display = "none"){
             //contindex.transition = "all 200s";
             contindex.display = "block";
-            btnwelcome.display = "none";
-            contbg.filter = "blur(2px)";
-            contbg.transform = "scale(1.01)";
-        }else if(contindex.display = "block"){
-            btnwelcome.display = "none";
+            btnwelcome.display = "block";
+            contindex.transition = "display 10s";
         }
+        contbg.filter = "blur(2px)";
+        contbg.transform = "scale(1.01)";
+        btnwelcome.display = "none";
     }
 </script>

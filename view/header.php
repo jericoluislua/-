@@ -47,7 +47,7 @@
     </div>
 </nav>
 <div id="<?= $bg ?>" align="center">
-    <button id="<?= $btnw ?>" class="btn" onclick="openIndex()">Ｊ　Ｌ　Ｌ</button>
+    <div id="btnopendiv"><a id="<?= $btnw ?>" class="btn" onclick="openIndex()"><span>Ｊ　Ｌ　Ｌ</span></a></div>
 </div>
 <div class="container maincontainer" id="<?= $container ?>">
         <div id="heading">
