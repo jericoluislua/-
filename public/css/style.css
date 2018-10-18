@@ -129,12 +129,12 @@ body {
 
 /* !!!FOR MOBILE DESIGNING!!! */
 @media only screen and (max-device-width: 767px){
+  #btnwelcome{
+    display: none;
+  }
   #filebtn{
     margin: 10px auto 0 auto;
     text-align: center;
-  }
-  #btnwelcome{
-    display: none;
   }
   .btnreturn{
     color: #05ffa1;

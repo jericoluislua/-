@@ -23,15 +23,14 @@
     How I think can be really <b>extra</b>, <b>weird</b> and <b>out of the box</b>, just like Vaporwave. A Vaporwave song is very <b>unpredictable</b> and never sounds like a different song.
 </p>
 <script>
+
     var contindex = document.getElementById("index").style;
     var contbg = document.getElementById("bgindex");
     var contbgstyle = document.getElementById("bgindex").style;
-    var btnwelcome = document.getElementById("btnwelcome").style;
+    var btnwelcome = document.getElementById("btnwelcome");
+    var btnwelcomestyle = document.getElementById("btnwelcome").style;
     var pos2 = 321;
-    if(btnwelcome.display = "block"){
-        contindex.display = "none";
-        contindex.bottom = "321px";
-    }
+    contindex.bottom = "321px";
 
     function openIndex() {
 
@@ -54,7 +53,7 @@
                 clearInterval(id);
                 contindex.display = "block";
                 contindex.marginTop = "20px";
-                btnwelcome.display = "none";
+                btnwelcomestyle.display = "none";
 
             } else {
                 pos++;
@@ -65,20 +64,21 @@
 //                opacity--;
                 contindex.display = "block";
                 console.log(contindex.height);
-                btnwelcome.top = pos + 'px';
+                btnwelcomestyle.top = pos + 'px';
                 contbgstyle.transition = "2s";
                 contbgstyle.filter = "blur(2px)";
                 contbgstyle.transform = "scale(1.01)";
             }
-//            btnwelcome.display = "none";
-//            btnwelcome.transition = "2s";
-            btnwelcome.margin = "0"; //if removed, it will look like a bumping animation
+            btnwelcomestyle.margin = "0"; //if removed, it will look like a bumping animation
             finalbtnwelcome = contindex.bottom;
             console.log(finalbtnwelcome);
         }
-        if(btnwelcome.top === '321px'){
-            btnwelcome.display = "none";
+        if(btnwelcomestyle.top === '321px'){
+            btnwelcomestyle.display = "none";
         }
     }
 
+    /*if(window.matchMedia("(max-device-width: 767px)").matches)){
+        btnwelcomestyle.display = "none";
+    }*/
 </script>
