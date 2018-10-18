@@ -21,7 +21,7 @@
             <div class="col-md-6">
                 <div class="videocontainer panel panel-default">
                     <div class="panel-heading">
-                        <p>A mini compilation I did after I noticed I played pretty well.</p>
+                        <p>Me(Villager) against a random person online.</p>
                     </div>
                     <div class="video embed-responsive embed-responsive-yt">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w7ljFAJKwn0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

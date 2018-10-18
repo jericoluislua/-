@@ -16,7 +16,7 @@
     <br>
     It has something to do with Vaporwave. This version of <span id="vppink">pink</span>, <span id="vpviol">violet</span>, <span id="vpblue">blue</span> and <span id="vpgree">green</span> is very much associated with it.
     <br>
-    Now you might be asking yourself, what the hell even is Vaporwave?
+    Now you might be asking yourself, what even is Vaporwave?
     <br>
     Vaporwave is a music genre I really like.
     <br>
@@ -24,8 +24,14 @@
 </p>
 <script>
     var contindex = document.getElementById("index").style;
-    var contbg = document.getElementById("bgindex").style;
+    var contbg = document.getElementById("bgindex");
+    var contbgstyle = document.getElementById("bgindex").style;
     var btnwelcome = document.getElementById("btnwelcome").style;
+    var pos2 = 321;
+    if(btnwelcome.display = "block"){
+        contindex.display = "none";
+        contindex.bottom = "321px";
+    }
 
     function openIndex() {
 
@@ -39,25 +45,36 @@
 
         }
         var pos = 0;
-        var pos2 = 50;
-        var mtop = -100;
+
+        var blur = 0;
+//        var opacity = 1;
+        var mtop = contindex.height;
         var id = setInterval(frame, 2);
         function frame() {
-            if (pos == 700) {
+            if (pos == 321) {
                 clearInterval(id);
-                btnwelcome.display = "none";
+                contindex.display = "block";
                 contindex.marginTop = "20px";
+                btnwelcome.display = "none";
+                btnwelcome.transition = "display 2s";
             } else {
                 pos++;
                 mtop++;
-                contindex.marginTop = mtop + '%';
+                blur++
+                pos2--;
+                contindex.bottom = pos2 + "px";
+//                opacity--;
                 contindex.display = "block";
+//                contindex.marginTop = -mtop;
+                console.log(contindex.height);
                 btnwelcome.top = pos + 'px';
-                contbg.filter = "blur(2px)";
-                contbg.transform = "scale(1.01)";
-            }
+                    contbgstyle.filter = "blur(2px)";
+                contbgstyle.transform = "scale(1.01)";
+
+
         }
-        btnwelcome.margin = "0";
+            btnwelcome.margin = "0";
+        }
 
     }
 </script>

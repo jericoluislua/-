@@ -9,23 +9,17 @@ body {
 
 /*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 @media only screen and (min-device-width: 768px) {
-  #filebtn{
-    float: left;
-  }
   #bgindex, #bgfiles, #bgprojs, #bglife, #bgme, #bghobby, #bgbball, #bgdance, #bgcubin, #bgvg{
     position: fixed;
   }
   #bgindex{
-    background: url("../images/mevaporwave(1).JPG") no-repeat center;
+    background: url("../images/mepic.JPG") no-repeat center;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
     height: 100%;
     width: 100%;
   }
-  #index{
-    margin-top: -100%;
-  }
-  #bgindex:hover{
+  .bghover:hover{
     filter: none; !important;
     transition: filter 2s; !important;
   }
@@ -50,9 +44,6 @@ body {
     border-radius: 4px;
     transition:  2s;
   }*/
-  #index{
-    display: none;
-  }
 
   #bgprojs{
 
@@ -129,18 +120,14 @@ body {
     opacity: 1;
     left: 20px;
   }
+  #password{
+    float: none;
+    width: 16.66666667%;
+  }
 }
+
+
 /* !!!FOR MOBILE DESIGNING!!! */
-/*@media only screen and (max-width: 767px){
-  .navbar-header{
-    background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
-    color: white;
-  }
-  .navbar-brand{
-    background-color: inherit;wd
-    background: inherit;
-  }
-}*/
 @media only screen and (max-device-width: 767px){
   #filebtn{
     margin: 10px auto 0 auto;
@@ -184,6 +171,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  #contfile{
+    text-align: center;
   }
 }
 @media only screen and (min-device-width: 415px){
@@ -440,6 +430,8 @@ body {
 #vpgree{
   color: #05ffa1;
 }
+/*------------------------FILE-------------------------------*/
+
 /*------------------------FOOTER-----------------------------*/
 .logo{
   height: 50px;

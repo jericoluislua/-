@@ -1,3 +1,4 @@
+</div>
 <?php
 /**
  * Created by PhpStorm.
@@ -9,25 +10,14 @@
 if(!isset($_SESSION['openfiles'])){
 
     ?>
-    <p class="fileabt">Files that are secured by a password.</p>
+    <p class="fileabt">Type in password to gain access to the secured files.</p>
 
-    <form class="form-horizontal" action="/FILES/checkPassword" method="post">
-        <div class="component" data-html="true">
-            <div class="form-group">
-
-                <div class="form-group">
-                    <div class="col-md-1">
-                        <label class="col-md-1 control-label" for="password" id="inputpass">Password</label>
-                    </div>
-                    <script>
-                        $(document.getElementById("inputpass")).width() == 80%;
-                    </script>
-                    <div class="col-md-4" align="center">
-                        <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md" required>
-                        <input id="filebtn" name="send" type="submit" class="btn" value="Show secured files">
-                    </div>
-                </div>
-            </div>
+    <form class="form-inline" action="/FILES/checkPassword" method="post">
+        <div class="formgroup">
+            <label class="control-label" for="password" id="inputpass">Password</label>
+            <input id="password" name="password" type="password" placeholder="Password" class="form-control col-md-2" required>
+            <input id="filebtn" name="send" type="submit" class="btn" value="Show secured files">
+        </div>
     </form>
     <?php
 }
