@@ -28,16 +28,36 @@
     var btnwelcome = document.getElementById("btnwelcome").style;
 
     function openIndex() {
+
+
         if(contindex.display = "none"){
             //contindex.transition = "all 200s";
-            contindex.display = "block";
-            btnwelcome.display = "block";
-
+            //contindex.display = "block";
+            //btnwelcome.display = "block";
             contindex.transition = "display 10s";
+
+
+        }
+        var pos = 0;
+        var pos2 = 50;
+        var mtop = -100;
+        var id = setInterval(frame, 2);
+        function frame() {
+            if (pos == 700) {
+                clearInterval(id);
+                btnwelcome.display = "none";
+                contindex.marginTop = "20px";
+            } else {
+                pos++;
+                mtop++;
+                contindex.marginTop = mtop + '%';
+                contindex.display = "block";
+                btnwelcome.top = pos + 'px';
+                contbg.filter = "blur(2px)";
+                contbg.transform = "scale(1.01)";
+            }
         }
         btnwelcome.margin = "0";
-        contbg.filter = "blur(2px)";
-        contbg.transform = "scale(1.01)";
-        btnwelcome.display = "none";
+
     }
 </script>

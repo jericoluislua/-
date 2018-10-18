@@ -9,11 +9,6 @@
                       <!--<a href="https://www.youtube.com/jericoluislua/" title="Gaming/Unboxing videos"><img src="/images/micon/yt-logo.svg" class="logo"/></a>-->
                       <a href="https://www.youtube.com/jericoluislua/"><img src="/images/iconset-1/yt-logo.svg" class="logo"/></a>
 
-                      <script>
-                          if(window.matchMedia("(max-device-width: 378px)").matches){
-                      </script>
-                            <br/>
-                      <script>}</script>
 
 
                   </p>
@@ -22,13 +17,8 @@
         </div>
         <script>
             var h1hobbylength = document.getElementById("h1hobby").length;
-            var h1hobbywidth = document.getElementById("h1hobby").style.width;
-            var contindex = document.getElementById("index");
-            var btnwelcome = document.getElementById("btnwelcome");
-
-
             if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
-                document.getElementById("heading").style.marginBottom = 10px;
+                document.getElementById("heading").style.marginBottom = "10px";
             }
 
         </script>
