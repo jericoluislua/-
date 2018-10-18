@@ -45,7 +45,7 @@ else if(isset($_SESSION['openfiles'])){
         </div>
 
     </div>
-    <div class="row rfilecontainer" id="rzeugnis">
+    <div class="row rfilecontainer rfilecontainer-mid" id="rzeugnis">
         <h2 class="col containername h2" id="hzeugnis">Zeugnisse</h2>
 
         <div class="row rcontent" id="rbwd">
