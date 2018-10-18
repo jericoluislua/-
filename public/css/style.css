@@ -12,13 +12,16 @@ body {
   #filebtn{
     float: left;
   }
+  #bgindex, #bgfiles, #bgprojs, #bglife, #bgme, #bghobby, #bgbball, #bgdance, #bgcubin, #bgvg{
+    position: fixed;
+  }
   #bgindex{
     background: url("../images/mevaporwave(1).JPG") no-repeat center;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
-    position: fixed;
     height: 100%;
     width: 100%;
+
   }
   #bgindex:hover{
     filter: none; !important;
@@ -130,12 +133,25 @@ body {
   }
 }
 /* !!!FOR MOBILE DESIGNING!!! */
+/*@media only screen and (max-width: 767px){
+  .navbar-header{
+    background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
+    color: white;
+  }
+  .navbar-brand{
+    background-color: inherit;wd
+    background: inherit;
+  }
+}*/
 @media only screen and (max-device-width: 767px){
   #filebtn{
     margin: 10px auto 0 auto;
     text-align: center;
   }
   #file{
+    display: none;
+  }
+  #logout{
     display: none;
   }
   #btnwelcome{

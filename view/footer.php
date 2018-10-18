@@ -20,6 +20,18 @@
                 </footer>
             </div>
         </div>
+        <script>
+            var h1hobbylength = document.getElementById("h1hobby").length;
+            var h1hobbywidth = document.getElementById("h1hobby").style.width;
+            var contindex = document.getElementById("index");
+            var btnwelcome = document.getElementById("btnwelcome");
+
+
+            if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
+                document.getElementById("heading").style.marginBottom = 10px;
+            }
+
+        </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

@@ -32,8 +32,10 @@
             //contindex.transition = "all 200s";
             contindex.display = "block";
             btnwelcome.display = "block";
+
             contindex.transition = "display 10s";
         }
+        btnwelcome.margin = "0";
         contbg.filter = "blur(2px)";
         contbg.transform = "scale(1.01)";
         btnwelcome.display = "none";

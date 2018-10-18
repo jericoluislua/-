@@ -34,17 +34,28 @@ if(!isset($_SESSION['openfiles'])){
 else if(isset($_SESSION['openfiles'])){
     ?>
     </div>
-    <div class="row rfilecontainer" id="rzeugnis">
-        <h2 class="col containername h2 hzeugnis">Zeugnisse</h2>
+    <div id="rbewerbung" class="row rfilecontainer">
+        <h2 class="col containername h2" id="hbewerbung">Bewerbung</h2>
 
-        <div class="row rcontent rbwd">
+        <div id="rlebenslauf" class="row rcontent">
+            <h4 class="filename col-md-6">Lebenslauf</h4>
+            <div class="filedetails filedetails-sho col-md-6" align="right">
+                <a href="../docs/bewerbung/lebenslauf/lebenslauf_Jerico_Lua.pdf" download>download</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="row rfilecontainer" id="rzeugnis">
+        <h2 class="col containername h2" id="hzeugnis">Zeugnisse</h2>
+
+        <div class="row rcontent" id="rbwd">
             <h4 class="filename col-md-6">BWD</h4>
             <div class="filedetails filedetails-sho col-md-6" align="right">
                 <a href="../docs/zeugnisse/bwd/bwd_Zeugnis_Jerico_Lua.pdf" download>download</a>
             </div>
         </div>
 
-        <div class="row rcontent rgibb">
+        <div class="row rcontent" id="rgibb">
             <h4 class="filename col-md-6">gibb</h4>
             <div class="filedetails filedetails-sho col-md-6" align="right">
                 <a href="../docs/zeugnisse/gibb/gibb_Zeugnis_Jerico_Lua.pdf" download>download</a>
