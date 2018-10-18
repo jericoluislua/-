@@ -124,9 +124,15 @@ body {
     float: none;
     width: 16.66666667%;
   }
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
 }
 
 
+/* !!!FOR MOBILE DESIGNING!!! */
+/* !!!FOR MOBILE DESIGNING!!! */
 /* !!!FOR MOBILE DESIGNING!!! */
 @media only screen and (max-device-width: 767px){
   #btnwelcome{
@@ -175,7 +181,15 @@ body {
   #contfile{
     text-align: center;
   }
+  .logo{
+    height: 35px;
+    width: 35px;
+  }
 }
+
+
+
+
 @media only screen and (min-device-width: 415px){
   .btnreturn{
     margin: -17px 0 0 10px;
@@ -433,10 +447,7 @@ body {
 /*------------------------FILE-------------------------------*/
 
 /*------------------------FOOTER-----------------------------*/
-.logo{
-  height: 50px;
-  width: 50px;
-}
+
               /* content container for the webpage */
               /*.content-wrapper {
 
