@@ -1,5 +1,5 @@
                 <hr>
-                <footer>
+                <footer id="footer">
                   <p>Copyright MVC Framework from BBC
                       <br/>
                       <!--<a href="mailto:jericoluislua@yahoo.com.ph" title="jericoluislua@yahoo.com.ph"><img src="/images/micon/email-logo.svg" class="logo"/></a>
