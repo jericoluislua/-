@@ -20,7 +20,7 @@
     <br>
     Vaporwave is a music genre I really like.
     <br>
-    How I think can be really <b>extra</b>, <b>weird</b> and <b>out of the box</b>, just like Vaporwave. No Vaporwave song sounds the same.
+    How I think can be really <b>extra</b>, <b>weird</b> and <b>out of the box</b>, just like Vaporwave. A Vaporwave song is very <b>unpredictable</b> and never sounds like a different song.
 </p>
 <script>
     var contindex = document.getElementById("index").style;
@@ -45,9 +45,8 @@
 
         }
         var pos = 0;
-
         var blur = 0;
-//        var opacity = 1;
+        var finalbtnwelcome;
         var mtop = contindex.height;
         var id = setInterval(frame, 2);
         function frame() {
@@ -56,7 +55,7 @@
                 contindex.display = "block";
                 contindex.marginTop = "20px";
                 btnwelcome.display = "none";
-                btnwelcome.transition = "display 2s";
+
             } else {
                 pos++;
                 mtop++;
@@ -65,16 +64,21 @@
                 contindex.bottom = pos2 + "px";
 //                opacity--;
                 contindex.display = "block";
-//                contindex.marginTop = -mtop;
                 console.log(contindex.height);
                 btnwelcome.top = pos + 'px';
-                    contbgstyle.filter = "blur(2px)";
+                contbgstyle.transition = "2s";
+                contbgstyle.filter = "blur(2px)";
                 contbgstyle.transform = "scale(1.01)";
-
-
+            }
+//            btnwelcome.display = "none";
+//            btnwelcome.transition = "2s";
+            btnwelcome.margin = "0"; //if removed, it will look like a bumping animation
+            finalbtnwelcome = contindex.bottom;
+            console.log(finalbtnwelcome);
         }
-            btnwelcome.margin = "0";
+        if(btnwelcome.top === '321px'){
+            btnwelcome.display = "none";
         }
-
     }
+
 </script>
