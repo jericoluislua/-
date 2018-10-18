@@ -146,12 +146,6 @@ body {
     margin: 10px auto 0 auto;
     text-align: center;
   }
-  #file{
-    display: none;
-  }
-  #logout{
-    display: none;
-  }
   #btnwelcome{
     display: none;
   }
