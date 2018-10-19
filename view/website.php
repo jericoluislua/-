@@ -27,33 +27,24 @@
     var contindex = document.getElementById("index").style;
     var contbg = document.getElementById("bgindex");
     var contbgstyle = document.getElementById("bgindex").style;
-    var btnwelcome = document.getElementById("btnwelcome");
     var btnwelcomestyle = document.getElementById("btnwelcome").style;
     var pos2 = 321;
     contindex.bottom = "321px";
 
     function openIndex() {
 
-
-        if(contindex.display = "none"){
-            //contindex.transition = "all 200s";
-            //contindex.display = "block";
-            //btnwelcome.display = "block";
-            contindex.transition = "display 10s";
-
-
-        }
         var pos = 0;
         var blur = 0;
         var finalbtnwelcome;
         var mtop = contindex.height;
-        var id = setInterval(frame, 2);
+        var id = setInterval(frame, 1);
         function frame() {
             if (pos == 321) {
                 clearInterval(id);
                 contindex.display = "block";
                 contindex.marginTop = "20px";
                 btnwelcomestyle.display = "none";
+                btnwelcomestyle.disabled = true;
 
             } else {
                 pos++;
@@ -68,6 +59,7 @@
                 contbgstyle.transition = "2s";
                 contbgstyle.filter = "blur(2px)";
                 contbgstyle.transform = "scale(1.01)";
+                btnwelcomestyle.disabled = true;
             }
             btnwelcomestyle.margin = "0"; //if removed, it will look like a bumping animation
             finalbtnwelcome = contindex.bottom;
@@ -76,6 +68,7 @@
         if(btnwelcomestyle.top === '321px'){
             btnwelcomestyle.display = "none";
         }
+
     }
 
     /*if(window.matchMedia("(max-device-width: 767px)").matches)){

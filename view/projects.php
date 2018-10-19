@@ -7,12 +7,33 @@
  * Time: 5:32 PM
  */
 $me = 'Jerico Luis Lua'?>
-<div class="panel panel-default">
+<div class="panel panel-danger broken">
     <div class="panel-heading">
-        <h4 class="ptitle">
+        <h4 class="htitle">
+            <a href="http://bchand.dev.bbc-projects.ch/" target="_blank">SuppArt</a>
+        </h4>
+    </div>
+    <div class="panel-body">
+        <p class="pcreator">
+            by <?= $me ?> and Denis Chanmongkhon.
+        </p>
+        <p class="pdesc">
+            A project made in ÜK Module 307.
+        </p>
+        <p class="pdesc">
+            My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
+        </p>
+        <p class="pdesc">
+            The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
+        </p>
+    </div>
+</div>
+<div class="panel panel-default finished">
+    <div class="panel-heading">
+        <h4 class="htitle">
             BadiApp
         </h4>
-        <p id="pcreator">
+        <p class="pcreator">
             by <?= $me; ?> and Nicholas Lachenal
         </p>
         <p class="pdesc">
@@ -22,16 +43,16 @@ $me = 'Jerico Luis Lua'?>
             This mobile app can help you know the pool and weather's temperature with ease.
         </p>
         <p class="pdesc">
-            The whole project can be seen <a href="https://github.com/jericoluislua/BadiApp">here</a>.
+            The whole project can be seen <a href="https://github.com/jericoluislua/BadiApp" target="_blank">here</a>.
         </p>
     </div>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-default finished">
     <div class="panel-heading">
-        <h4 class="ptitle">
+        <h4 class="htitle">
             <a href="http://tictactoe.jericolua.ch">TIC TAC TOE</a>
         </h4>
-        <p id="pcreator">
+        <p class="pcreator">
             by <?= $me; ?>
         </p>
         <p class="pdesc">
