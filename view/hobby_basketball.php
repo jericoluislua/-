@@ -6,6 +6,7 @@
  * Time: 5:37 PM
  */
 ?>
+</h1>
     <div class="btnreturndiv" id="btnreturnbball">
         <button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
             <i class="fa fa-angle-left"></i>
@@ -13,7 +14,7 @@
         </button>
     </div>
 </div>
-<div class="row" id="bball">
+<div class="row"><!--for the float left-->
     <div class="col-md-6">
         <!--<div class="videocontainer">
             <div class="content-wrapper">

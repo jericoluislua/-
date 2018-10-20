@@ -4,7 +4,7 @@
                       <br/>
                       <!--<a href="mailto:jericoluislua@yahoo.com.ph" title="jericoluislua@yahoo.com.ph"><img src="/images/micon/email-logo.svg" class="logo"/></a>
                       <a href="https://github.com/jericoluislua" title="Most of my school projects are in here."><img src="/images/micon/github-logo.svg" class="logo"/></a>-->
-                      <a href="https://www.instagram.com/jclt_nogitsune/" title="My personal instagram account" target="_blank"><img src="/images/iconset-1/ig-logo.svg" class="logo"/></a>
+                      <a href="https://www.instagram.com/jclt_nogitsune/" title="My personal instagram account" target="_blank"><img src="/images/iconset-1/ig-new.png" class="logo"/></a>
                       <a href="https://www.facebook.com/jericoluislua/" title="My personal facebook account" target="_blank"><img src="/images/iconset-1/fb-logo.svg" class="logo"/></a>
                       <!--<a href="https://www.youtube.com/jericoluislua/" title="Gaming/Unboxing videos"><img src="/images/micon/yt-logo.svg" class="logo"/></a>-->
                       <a href="https://www.youtube.com/jericoluislua/" target="_blank"><img src="/images/iconset-1/yt-logo.svg" class="logo"/></a>
@@ -16,6 +16,53 @@
             </div>
         </div>
         <script>
+            var contindex = document.getElementById("index").style;
+            var contbg = document.getElementById("bgindex");
+            var contbgstyle = document.getElementById("bgindex").style;
+            var btnwelcomestyle = document.getElementById("btnwelcome").style;
+            var pos2 = 321;
+            contindex.bottom = "321px";
+
+            function openIndex() {
+
+                var pos = 0;
+                var blur = 0;
+                var finalbtnwelcome;
+                var mtop = contindex.height;
+                var id = setInterval(frame, 1);
+                function frame() {
+                    if (pos == 321) {
+                        clearInterval(id);
+                        contindex.display = "block";
+                        contindex.marginTop = "20px";
+                        btnwelcomestyle.display = "none";
+                        btnwelcomestyle.disabled = true;
+
+                    } else {
+                        pos++;
+                        mtop++;
+                        blur++
+                        pos2--;
+                        contindex.bottom = pos2 + "px";
+//                opacity--;
+                        contindex.display = "block";
+                        console.log(contindex.height);
+                        btnwelcomestyle.top = pos + 'px';
+                        contbgstyle.transition = "2s";
+                        contbgstyle.filter = "blur(2px)";
+                        contbgstyle.transform = "scale(1.01)";
+                        btnwelcomestyle.disabled = true;
+                    }
+                    btnwelcomestyle.margin = "0"; //if removed, it will look like a bumping animation
+                    finalbtnwelcome = contindex.bottom;
+                    console.log(finalbtnwelcome);
+                }
+                if(btnwelcomestyle.top === '321px'){
+                    btnwelcomestyle.display = "none";
+                }
+
+            }
+
             var h1hobbylength = document.getElementById("h1hobby").length;
             if((h1hobbylength = 19 || h1hobbylength > 19) && window.matchMedia("(max-device-width: 700px)").matches){
                 document.getElementById("heading").style.marginBottom = "10px";

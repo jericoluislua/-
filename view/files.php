@@ -23,7 +23,6 @@ if(!isset($_SESSION['openfiles'])){
 }
 else if(isset($_SESSION['openfiles'])){
     ?>
-    </div>
     <div id="rbewerbung" class="row rfilecontainer">
         <h2 class="col containername h2" id="hbewerbung">Bewerbung</h2>
 
@@ -149,6 +148,11 @@ else if(isset($_SESSION['openfiles'])){
             </div>
         </div>
     </div>
+    <script>
+        if(document.getElementById("h1files").innerHTML == "F I L E S"){
+            document.getElementById("heading").style.marginBottom = "20px";
+        }
+    </script>
     <?php
 }
 ?>

@@ -24,52 +24,6 @@
 </p>
 <script>
 
-    var contindex = document.getElementById("index").style;
-    var contbg = document.getElementById("bgindex");
-    var contbgstyle = document.getElementById("bgindex").style;
-    var btnwelcomestyle = document.getElementById("btnwelcome").style;
-    var pos2 = 321;
-    contindex.bottom = "321px";
-
-    function openIndex() {
-
-        var pos = 0;
-        var blur = 0;
-        var finalbtnwelcome;
-        var mtop = contindex.height;
-        var id = setInterval(frame, 1);
-        function frame() {
-            if (pos == 321) {
-                clearInterval(id);
-                contindex.display = "block";
-                contindex.marginTop = "20px";
-                btnwelcomestyle.display = "none";
-                btnwelcomestyle.disabled = true;
-
-            } else {
-                pos++;
-                mtop++;
-                blur++
-                pos2--;
-                contindex.bottom = pos2 + "px";
-//                opacity--;
-                contindex.display = "block";
-                console.log(contindex.height);
-                btnwelcomestyle.top = pos + 'px';
-                contbgstyle.transition = "2s";
-                contbgstyle.filter = "blur(2px)";
-                contbgstyle.transform = "scale(1.01)";
-                btnwelcomestyle.disabled = true;
-            }
-            btnwelcomestyle.margin = "0"; //if removed, it will look like a bumping animation
-            finalbtnwelcome = contindex.bottom;
-            console.log(finalbtnwelcome);
-        }
-        if(btnwelcomestyle.top === '321px'){
-            btnwelcomestyle.display = "none";
-        }
-
-    }
 
     /*if(window.matchMedia("(max-device-width: 767px)").matches)){
         btnwelcomestyle.display = "none";

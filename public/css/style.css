@@ -219,17 +219,22 @@ body {
     padding-left: 198px;
   }
 }
+
+
+
+
               /* GENERAL*/
 #off{
   display: none;
 }
-.broken{
-  border-color: #ebccd1;
+#smashlogo{
+  margin-top: -7px;
+  height: 20px;
+  width: 20px;
 }
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*------------------------NAVIGATION BAR---------------------*/
-
 #activef{
   background-color: #ff71ce;
   color: white;
@@ -361,6 +366,9 @@ body {
 .btnreturndiv{
   display: inline-block;
 }
+.panel-broken{
+
+}
                        /* TITLES */
 .containername{
   border-bottom: 2px solid black;
@@ -368,7 +376,42 @@ body {
                        /* TITLES */
                        /* HEADING */
 #heading{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+#h1project{
+  display: inline-block;
+}
+.panel-broken{
+  border-color: #ff71ce;
+}
+.panel-broken > .panel-heading{
+  color: #4c4c4c;
+  background-color: #ffbee8;
+}
+.panel-fin{
+  border-color: #33ccff;
+}
+.panel-fin > .panel-heading{
+  color: #4c4c4c;
+  background-color: #80dfff;
+}
+#fin{
+  background-color: #80dfff;
+}
+#broken{
+  background-color: #ffbee8;
+}
+#unfin{
+
+}
+#divcexp{
+  display: inline;
+  margin: 20px 0 10px 0;
+}
+.cexp{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
 }
 #h1hobby{
   display: inline-block;
@@ -379,10 +422,23 @@ body {
 .huek{
   margin-bottom: 0;
 }
+.hvgames{
+  margin: 0 0 10px 0;
+}
 .filename{
   margin: 0;
   padding-left: 15px;
   padding-top: 0.2px;
+}
+.htitle{
+  color: #4c4c4c;
+}
+.hlink{
+  color: #4c4c4c;
+  text-decoration: underline;
+}
+.hlink:hover{
+  color: #4c4c4c;
 }
                        /* VIDEOSTUFF */
 .videoinformation{

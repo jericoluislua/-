@@ -1,4 +1,6 @@
-</div>
+    <div id="divcexp">
+        <div id="fin" class="cexp"></div><div id="broken" class="cexp"></div><div id="unfin" class="cexp"></div></h1>
+    </div>
 <?php
 /**
  * Created by PhpStorm.
@@ -7,10 +9,10 @@
  * Time: 5:32 PM
  */
 $me = 'Jerico Luis Lua'?>
-<div class="panel panel-danger broken">
+<div class="panel panel-broken">
     <div class="panel-heading">
         <h4 class="htitle">
-            <a href="http://bchand.dev.bbc-projects.ch/" target="_blank">SuppArt</a>
+            <a href="http://bchand.dev.bbc-projects.ch/" target="_blank" class="hlink">SuppArt</a>
         </h4>
     </div>
     <div class="panel-body">
@@ -28,11 +30,13 @@ $me = 'Jerico Luis Lua'?>
         </p>
     </div>
 </div>
-<div class="panel panel-default finished">
+<div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
             BadiApp
         </h4>
+    </div>
+    <div class="panel-body">
         <p class="pcreator">
             by <?= $me; ?> and Nicholas Lachenal
         </p>
@@ -45,13 +49,16 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/BadiApp" target="_blank">here</a>.
         </p>
+
     </div>
 </div>
-<div class="panel panel-default finished">
+<div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
-            <a href="http://tictactoe.jericolua.ch">TIC TAC TOE</a>
+            <a href="http://tictactoe.jericolua.ch" class="hlink">TIC TAC TOE</a>
         </h4>
+    </div>
+    <div class="panel-body">
         <p class="pcreator">
             by <?= $me; ?>
         </p>
