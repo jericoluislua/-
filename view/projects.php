@@ -1,6 +1,8 @@
-    <div id="divcexp">
-        <div id="fin" class="cexp"></div><div id="broken" class="cexp"></div><div id="unfin" class="cexp"></div></h1>
-    </div>
+<!--        </h1>
+        <div id="divcexp">
+            <div class="cdef"><div id="fin" class="cexp"></div><p class="cdef"> = working properly </p></div><div id="broken" class="cexp"></div><div id="unfin" class="cexp"></div>
+        </div>
+    </div>-->
 <?php
 /**
  * Created by PhpStorm.
@@ -9,25 +11,26 @@
  * Time: 5:32 PM
  */
 $me = 'Jerico Luis Lua'?>
-<div class="panel panel-broken">
+<div class="panel panel-default">
     <div class="panel-heading">
         <h4 class="htitle">
-            <a href="http://bchand.dev.bbc-projects.ch/" target="_blank" class="hlink">SuppArt</a>
+            MRT-SJ
         </h4>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <?= $me ?> and Denis Chanmongkhon.
+            by <i><b><?= $me; ?></b></i> and <i><b>Sivakeerthan Vamanarajasekaran</b></i>
         </p>
         <p class="pdesc">
-            A project made in ÜK Module 307.
+            An "IDPA" project.
         </p>
         <p class="pdesc">
-            My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
+            We created this website to help people learn how to program certain languages. As of now it's <b>unfinished</b>.
         </p>
         <p class="pdesc">
-            The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
+            The whole project can be seen <a href="https://github.com/jericoluislua/MRT-SJ" target="_blank">here</a>.
         </p>
+
     </div>
 </div>
 <div class="panel panel-fin">
@@ -38,10 +41,10 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <?= $me; ?> and Nicholas Lachenal
+            by <i><b><?= $me; ?></b></i> and <i><b>Nicholas Lachenal</b></i>
         </p>
         <p class="pdesc">
-            A project made in ÜK Module 337.
+            A project made in ÜK module 337.
         </p>
         <p class="pdesc">
             This mobile app can help you know the pool and weather's temperature with ease.
@@ -52,6 +55,29 @@ $me = 'Jerico Luis Lua'?>
 
     </div>
 </div>
+<div class="panel panel-broken">
+    <div class="panel-heading">
+        <h4 class="htitle">
+            <a href="http://bchand.dev.bbc-projects.ch/" target="_blank" class="hlink">SuppArt</a>
+        </h4>
+    </div>
+    <div class="panel-body">
+        <p class="pcreator">
+            by <i><b><?= $me ?></b></i> and <i><b>Denis Chanmongkhon</b></i>
+        </p>
+        <p class="pdesc">
+            A project made in ÜK module 307.
+        </p>
+        <p class="pdesc">
+            My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
+            <br>
+            Sadly it isn't fully functional. Check it out by clicking the title above.
+        </p>
+        <p class="pdesc">
+            The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
+        </p>
+    </div>
+</div>
 <div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
@@ -60,15 +86,18 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <?= $me; ?>
+            by <i><b><?= $me; ?></b></i>
         </p>
         <p class="pdesc">
-            A project made for the Module 133.
+            A project made for the gibb module 133.
         </p>
         <p class="pdesc">
-            This was the very first thing I ever made with Javascript.
+            This was my very first project with Javascript.
             <br>
             Tested on Mozilla Firefox and Google Chrome. (Works better on Google Chrome)
+        </p>
+        <p class="pdesc">
+            The whole project can be seen <a href="https://github.com/jericoluislua/TicTacToe" target="_blank">here</a>.
         </p>
     </div>
 </div>

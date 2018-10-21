@@ -6,7 +6,6 @@
  * Time: 5:37 PM
  */
 ?>
-</h1>
     <div class="btnreturndiv" id="btnreturnbball">
         <button onclick="location.href = '/HOBBIES/';" class="btn btnreturn">
             <i class="fa fa-angle-left"></i>

@@ -124,9 +124,13 @@ body {
     float: none;
     width: 16.66666667%;
   }
-  .logo{
+  .flogo{
     height: 40px;
     width: 40px;
+  }
+  .itlogo{
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -181,7 +185,7 @@ body {
   #contfile{
     text-align: center;
   }
-  .logo{
+  .flogo{
     height: 35px;
     width: 35px;
   }
@@ -380,6 +384,8 @@ body {
 }
 #h1project{
   display: inline-block;
+  margin: 0;
+  padding: 20px 0 10px 0;
 }
 .panel-broken{
   border-color: #ff71ce;
@@ -405,13 +411,18 @@ body {
 
 }
 #divcexp{
-  display: inline;
-  margin: 20px 0 10px 0;
+  display: inline-block;
 }
 .cexp{
   display: inline-block;
   height: 20px;
   width: 20px;
+  margin: 20px 0 3px 0;
+}
+.cdef{
+  display: inline;
+  margin: 20px 0 3px 0;
+
 }
 #h1hobby{
   display: inline-block;
@@ -464,6 +475,13 @@ body {
   background-image: url('../images/mevaporwave(1).JPG');
 }
                        /* PARALLAX */
+                       /* ABOUT ME */
+.abtme{
+  background-color: lightgray;
+  margin: 0 -15px;
+  padding: 10px 15px;
+}
+                       /* ABOUT ME */
                        /* ROWS */
 .rhobbies{
   padding-left: 18px;
