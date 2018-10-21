@@ -12,9 +12,9 @@
  */
 ?>
 <p>
-    What's up with the color scheme you might ask?
+    What's up with the (color & background) scheme you might ask?
     <br>
-    It has something to do with Vaporwave. This version of <span id="vppink">pink</span>, <span id="vpviol">violet</span>, <span id="vpblue">blue</span> and <span id="vpgree">green</span> is very much associated with it.
+    This is Vaporwave. This version of <span id="vppink">pink</span>, <span id="vpviol">violet</span>, <span id="vpblue">blue</span> and <span id="vpgree">green</span> is very much associated with it.
     <br>
     Now you might be asking yourself, what even is Vaporwave?
     <br>

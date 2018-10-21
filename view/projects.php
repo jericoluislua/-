@@ -14,6 +14,28 @@ $me = 'Jerico Luis Lua'?>
 <div class="panel panel-default">
     <div class="panel-heading">
         <h4 class="htitle">
+            Systema-CAI
+        </h4>
+    </div>
+    <div class="panel-body">
+        <p class="pcreator">
+            by <i><b><?= $me; ?></b></i>, <i><b>Sivakeerthan Vamanarajasekaran</b></i>, <i><b>Joel Feller</b></i> and <i><b>Dominik Schmalstieg</b></i>
+        </p>
+        <p class="pdesc">
+            A ? gibb module project <b>in the making</b>.
+        </p>
+        <p class="pdesc">
+            We are creating this website to have a more user-friendly way of informing our teachers' in b)wd about our absences.
+        </p>
+        <p class="pdesc">
+            The whole project can be seen <a href="https://github.com/Sivakeerthan/Systema-CAI" target="_blank">here</a>.
+        </p>
+
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="htitle">
             MRT-SJ
         </h4>
     </div>
@@ -22,10 +44,10 @@ $me = 'Jerico Luis Lua'?>
             by <i><b><?= $me; ?></b></i> and <i><b>Sivakeerthan Vamanarajasekaran</b></i>
         </p>
         <p class="pdesc">
-            An "IDPA" project.
+            An "IDPA" project <b>in the making</b>
         </p>
         <p class="pdesc">
-            We created this website to help people learn how to program certain languages. As of now it's <b>unfinished</b>.
+            We are creating this website to help people learn how to program certain languages.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/MRT-SJ" target="_blank">here</a>.

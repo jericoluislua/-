@@ -468,19 +468,47 @@ body {
   position: relative;
   background: url("../images/mepic.JPG") no-repeat top fixed;
   height: 500px;
-  margin: 0 -15px;
+  margin: 0;
 }
 
-.bgimage-2{
-  background-image: url('../images/mevaporwave(1).JPG');
-}
+/*.bgimage-2{
+  min-height: 100%;
+  position: relative;
+  background: url('../images/fampic.JPG') no-repeat;
+  height: 500px;
+  margin: 0;
+}*/
                        /* PARALLAX */
                        /* ABOUT ME */
+#innerdivme{
+  margin: 0;
+}
 .abtme{
   background-color: lightgray;
   margin: 0 -15px;
   padding: 10px 15px;
 }
+#bwdlink:hover{
+  text-decoration: none;
+  color: #337ab7;
+}
+#gibblink{
+  font-family: "Open Sans",sans-serif;
+  color: white;
+  font-weight: bold;
+}
+#gibblink:hover{
+  color: white;
+  text-decoration: none;
+}
+#bbclink{
+  color: gray;
+}
+#bbclink:hover{
+  color: gray;
+  text-decoration: none;
+}
+
                        /* ABOUT ME */
                        /* ROWS */
 .rhobbies{
@@ -530,6 +558,22 @@ body {
 /*------------------------FILE-------------------------------*/
 
 /*------------------------FOOTER-----------------------------*/
+#hfooter{
+  margin-top: 0;
+}
+/*------------------------FOOTER-----------------------------*/
+@font-face{
+  font-family:"Open Sans";
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: "Open Sans Extra Bold";
+  src: url('../fonts/OpenSans-ExtraBold.ttf');
+}
 
               /* content container for the webpage */
               /*.content-wrapper {

@@ -1,13 +1,15 @@
                 <hr>
                 <footer id="footer">
-                  <p>Copyright MVC Framework from BBC
-                      <br/>
-                      <a href="mailto:jericoluislua@yahoo.com.ph" title="jericoluislua@yahoo.com.ph"><img src="/images/iconset-1/email-logo.svg" class="flogo"/></a>
-                      <a href="https://github.com/jericoluislua" title="Most of my school projects are in here."><img src="/images/iconset-1/github-logo.svg" class="flogo"/></a>
+<!--                  <p>Copyright MVC Framework from BBC
+                  <br/>
+                  <a href="mailto:jericoluislua@yahoo.com.ph" title="jericoluislua@yahoo.com.ph"><img src="/images/iconset-1/email-logo.svg" class="flogo"/></a>-->
+                    <h3 id="hfooter">Contact</h3>
+                    <h5>E-Mail: <a href="mailto:jerico.lua@bwdbern.ch" title="jerico.lua@bwdbern.ch">jerico.lua@bwdbern.ch</a></h5>
+                    <a href="https://github.com/jericoluislua" title="Most of my school projects are in here."><img src="/images/iconset-1/github-logo.svg" class="flogo"/></a>
 <!--                      <a href="https://www.instagram.com/jclt_nogitsune/" title="My personal instagram account" target="_blank"><img src="/images/iconset-1/ig-new.png" class="flogo"/></a>
-                      <a href="https://www.facebook.com/jericoluislua/" title="My personal facebook account" target="_blank"><img src="/images/iconset-1/fb-logo.svg" class="flogo"/></a>
-                      <a href="https://www.youtube.com/jericoluislua/" target="_blank"><img src="/images/iconset-1/yt-logo.svg" class="flogo"/></a>
--->                      <a href="https://www.youtube.com/jericoluislua/" title="Gaming/Unboxing videos"><img src="/images/micon/yt-logo.svg" class="logo"/></a>-->
+                 <a href="https://www.facebook.com/jericoluislua/" title="My personal facebook account" target="_blank"><img src="/images/iconset-1/fb-logo.svg" class="flogo"/></a>
+                  <a href="https://www.youtube.com/jericoluislua/" target="_blank"><img src="/images/iconset-1/yt-logo.svg" class="flogo"/></a>-->
+                    <a href="https://www.youtube.com/jericoluislua/" title="Gaming/Unboxing videos"><img src="/images/iconset-1/yt-logo.svg" class="flogo"/></a>
 
 
 
@@ -21,10 +23,10 @@
             var contbgstyle = document.getElementById("bgindex").style;
             var btnwelcomestyle = document.getElementById("btnwelcome").style;
             var pos2 = 321;
-            contindex.bottom = "321px";
+            contindex.bottom = "350px";
 
             function openIndex() {
-
+                btnwelcomestyle.disabled = true;
                 var pos = 0;
                 var blur = 0;
                 var finalbtnwelcome;
@@ -35,6 +37,7 @@
                         clearInterval(id);
                         contindex.display = "block";
                         contindex.marginTop = "20px";
+                        contindex.bottom = "0px";
                         btnwelcomestyle.display = "none";
                         btnwelcomestyle.disabled = true;
 
@@ -49,13 +52,14 @@
                         console.log(contindex.height);
                         btnwelcomestyle.top = pos + 'px';
                         contbgstyle.transition = "2s";
-                        contbgstyle.filter = "blur(2px)";
-                        contbgstyle.transform = "scale(1.01)";
+                        //contbgstyle.filter = "blur(2px)";
+                        //contbgstyle.transform = "scale(1.01)";
                         btnwelcomestyle.disabled = true;
                     }
                     btnwelcomestyle.margin = "0"; //if removed, it will look like a bumping animation
                     finalbtnwelcome = contindex.bottom;
                     console.log(finalbtnwelcome);
+
                 }
                 if(btnwelcomestyle.top === '321px'){
                     btnwelcomestyle.display = "none";
