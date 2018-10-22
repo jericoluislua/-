@@ -23,7 +23,7 @@
             var contbgstyle = document.getElementById("bgindex").style;
             var btnwelcomestyle = document.getElementById("btnwelcome").style;
             var pos2 = 321;
-            contindex.bottom = "350px";
+            contindex.bottom = "383px";
 
             function openIndex() {
                 btnwelcomestyle.disabled = true;

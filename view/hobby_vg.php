@@ -16,7 +16,7 @@
 
 <div class="panel panel-default panel-body">
     <h3 id="hsmash" class="hvgames">Smash <img src="/images/smashlogo.svg" id="smashlogo"/></h3>
-    <p>I used to play Super Smash Bros. in tournaments. There are currently four different Super Smash Bros. games, 64, Melee, Brawl and 4(chronologically ordered). The ones' I played in tournaments were Melee and 4.</p>
+    <p>I used to play in <b>Super Smash Bros. tournaments</b>. There are currently four different Super Smash Bros. games, 64, Melee, Brawl and 4(chronologically ordered). The ones' I played in tournaments were Melee and 4.</p>
     <div class="row">
         <div class="col-md-6">
             <div class="videocontainer panel panel-default">

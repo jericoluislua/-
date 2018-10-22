@@ -116,7 +116,7 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
             <br>
-            Sadly it is <b>not fully functional</b>. Check it out by clicking the title above.
+            Sadly the website is currently not working.<!--<b>not fully functional</b>.--> Check it out by clicking the title above.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.

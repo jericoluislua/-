@@ -29,7 +29,7 @@ else if(isset($_SESSION['openfiles'])){
         <div id="rlebenslauf" class="row rcontent">
             <h4 class="filename col-md-6">Lebenslauf</h4>
             <div class="filedetails filedetails-sho col-md-6" align="right">
-                <a href="../docs/bewerbung/lebenslauf/lebenslauf_Jerico_Lua.pdf" target="_blank">download</a>
+                <a href="https://drive.google.com/file/d/17M4F--2BXxAShhogKNzAUHA2GJeL5zH4/view?usp=sharing" target="_blank">download</a>
             </div>
         </div>
 

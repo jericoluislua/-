@@ -132,7 +132,27 @@ body {
     height: 100px;
     width: 100px;
   }
+  .bgimage-1{
+    min-height: 100%;
+    position: relative;
+    background: url("../images/mepic(1).JPG") no-repeat top fixed;
+    background-size: contain;
+    height: 500px;
+    margin: 0;
+  }
+  .bgimage-2{
+    min-height: 100%;
+    position: relative;
+    background: url('../images/mepic(4).JPG') no-repeat center fixed;
+    background-size: contain;
+    height: 500px;
+    margin: 0;
+  }
 }
+
+
+
+
 
 
 /* !!!FOR MOBILE DESIGNING!!! */
@@ -176,11 +196,11 @@ body {
     background: linear-gradient(to right, #33ccff 0%, #b967ff 0%, #05ffa1 0%, #ff71ce 100%);
     color: white;
   }
-  .bgimage-1, .bgimage-2{
+  .bgimage-1{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #contfile{
     text-align: center;
@@ -194,6 +214,12 @@ body {
   }
   #footer{
     text-align: center;
+  }
+  .bgimage-2{
+    background: url('../images/mepic(4).JPG') no-repeat right;
+    background-size: cover;
+    height: 500px;
+    margin: 0;
   }
 }
 
@@ -481,28 +507,26 @@ body {
                        /* VIDEOSTUFF */
                        /* PARALLAX */
 .bgimage-1{
-  min-height: 100%;
-  position: relative;
-  background: url("../images/mepic.JPG") no-repeat top fixed;
+  background: url('../images/mepic(1).JPG') no-repeat center;
   height: 500px;
   margin: 0;
 }
+.parallaxme-1{
+  padding: 0 15px;
+}
 
-/*.bgimage-2{
-  min-height: 100%;
-  position: relative;
-  background: url('../images/fampic.JPG') no-repeat;
-  height: 500px;
-  margin: 0;
-}*/
+.parallaxme-1{
+  padding: 0 15px;
+}
                        /* PARALLAX */
                        /* ABOUT ME */
 #innerdivme{
   margin: 0;
+  background-color: lightgray;
 }
 .abtme{
   background-color: lightgray;
-  margin: 0 -15px;
+  margin: 10px -15px;
   padding: 10px 15px;
 }
 #bwdlink:hover{
