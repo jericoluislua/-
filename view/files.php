@@ -16,7 +16,7 @@ if(!isset($_SESSION['openfiles'])){
         <div class="formgroup">
             <label class="control-label" for="password" id="inputpass">Password</label>
             <input id="password" name="password" type="password" placeholder="Password" class="form-control col-md-2" required>
-            <input id="filebtn" name="send" type="submit" class="btn" value="Show secured files">
+            <input id="btnfile" name="send" type="submit" class="btn" value="Show secured files">
         </div>
     </form>
     <?php

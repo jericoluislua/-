@@ -142,7 +142,7 @@ body {
   #btnwelcome{
     display: none;
   }
-  #filebtn{
+  #btnfile{
     margin: 10px auto 0 auto;
     text-align: center;
   }
@@ -361,7 +361,17 @@ body {
   background-color: #05ffa1;
   color: black;
 }
-
+#btnfile{
+  transition: background-color 10s ease;
+  transition: color 1s ease;
+  border: 1px solid #ff71ce;
+  color: #ff71ce;
+  background-color: inherit;
+}
+#btnfile:hover{
+  background-color: #ff71ce;
+  color: black;
+}
 
 /*------------------------BUTTONS----------------------------*/
 /*-----------------------------------------------------------*/

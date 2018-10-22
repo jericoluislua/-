@@ -22,7 +22,7 @@ $me = 'Jerico Luis Lua'?>
             by <i><b><?= $me; ?></b></i>, <i><b>Sivakeerthan Vamanarajasekaran</b></i>, <i><b>Joel Feller</b></i> and <i><b>Dominik Schmalstieg</b></i>
         </p>
         <p class="pdesc">
-            A ? gibb module project <b>in the making</b>.
+            A 306 gibb module project <b>in the making</b>.
         </p>
         <p class="pdesc">
             We are creating this website to have a more user-friendly way of informing our teachers' in b)wd about our absences.
@@ -47,7 +47,7 @@ $me = 'Jerico Luis Lua'?>
             An "IDPA" project <b>in the making</b>
         </p>
         <p class="pdesc">
-            We are creating this website to help people learn how to program certain languages.
+            We are creating this website to help people polish their knowledge on certain programming languages.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/MRT-SJ" target="_blank">here</a>.
