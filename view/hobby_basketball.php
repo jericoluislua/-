@@ -13,6 +13,10 @@
         </button>
     </div>
 </div>
+<p>
+    Basketball is the most loved sport in the Philippines. So why would I not love it too?
+    <br>
+    I started playing Basketball around 6 months after I arrived here.
 <div class="row"><!--for the float left-->
     <div class="col-md-6">
         <!--<div class="videocontainer">
