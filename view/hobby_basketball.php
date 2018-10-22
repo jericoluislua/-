@@ -17,6 +17,8 @@
     Basketball is the most loved sport in the Philippines. So why would I not love it too?
     <br>
     I started playing Basketball around 6 months after I arrived here.
+    <br>
+    I joined a basketball club here in Switzerland named <a href="www.swiss-jbl.ch/">JBL</a>. Bulldogs was the team I played with, for three years. Under those years I was a consistent All-star player.
 <div class="row"><!--for the float left-->
     <div class="col-md-6">
         <!--<div class="videocontainer">

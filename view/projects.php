@@ -11,7 +11,7 @@
  * Time: 5:32 PM
  */
 $me = 'Jerico Luis Lua'?>
-<div class="panel panel-default">
+<div class="panel panel-itm">
     <div class="panel-heading">
         <h4 class="htitle">
             Systema-CAI
@@ -33,7 +33,7 @@ $me = 'Jerico Luis Lua'?>
 
     </div>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-itm">
     <div class="panel-heading">
         <h4 class="htitle">
             MRT-SJ
@@ -77,33 +77,10 @@ $me = 'Jerico Luis Lua'?>
 
     </div>
 </div>
-<div class="panel panel-broken">
-    <div class="panel-heading">
-        <h4 class="htitle">
-            <a href="http://bchand.dev.bbc-projects.ch/" target="_blank" class="hlink">SuppArt</a>
-        </h4>
-    </div>
-    <div class="panel-body">
-        <p class="pcreator">
-            by <i><b><?= $me ?></b></i> and <i><b>Denis Chanmongkhon</b></i>
-        </p>
-        <p class="pdesc">
-            A project made in ÜK module 307.
-        </p>
-        <p class="pdesc">
-            My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
-            <br>
-            Sadly it isn't fully functional. Check it out by clicking the title above.
-        </p>
-        <p class="pdesc">
-            The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
-        </p>
-    </div>
-</div>
 <div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
-            <a href="http://tictactoe.jericolua.ch" class="hlink">TIC TAC TOE</a>
+            <a href="https://tictactoe.jericolua.ch" class="hlink">TIC TAC TOE</a>
         </h4>
     </div>
     <div class="panel-body">
@@ -120,6 +97,52 @@ $me = 'Jerico Luis Lua'?>
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/TicTacToe" target="_blank">here</a>.
+        </p>
+    </div>
+</div>
+<div class="panel panel-broken">
+    <div class="panel-heading">
+        <h4 class="htitle">
+            <a href="https://suppart.jericolua.ch/" target="_blank" class="hlink">SuppArt</a>
+        </h4>
+    </div>
+    <div class="panel-body">
+        <p class="pcreator">
+            by <i><b><?= $me ?></b></i> and <i><b>Denis Chanmongkhon</b></i>
+        </p>
+        <p class="pdesc">
+            A project made in ÜK module 307.
+        </p>
+        <p class="pdesc">
+            My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
+            <br>
+            Sadly it is <b>not fully functional</b>. Check it out by clicking the title above.
+        </p>
+        <p class="pdesc">
+            The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
+        </p>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="htitle">
+            MTSQL (Movie Tickets SQL)
+        </h4>
+    </div>
+    <div class="panel-body">
+        <p class="pcreator">
+            by <i><b><?= $me ?></b></i>
+        </p>
+        <p class="pdesc">
+            A self-made project.
+        </p>
+        <p class="pdesc">
+            A <b>future</b> project I want to make a project that involves two things I like doing, which are programming and watching movies.
+            <br>
+            Whenever I go watch a movie, I usually don't throw the movie ticket, I rather collect it for the memories.
+        </p>
+        <p class="pdesc">
+            I haven't started on it yet.
         </p>
     </div>
 </div>

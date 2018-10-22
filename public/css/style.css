@@ -411,6 +411,13 @@ body {
   color: #4c4c4c;
   background-color: #80dfff;
 }
+.panel-itm{
+  border-color: #b967ff;
+}
+.panel-itm > .panel-heading{
+  color: white;
+  background-color: #dcb4ff;
+}
 #fin{
   background-color: #80dfff;
 }
