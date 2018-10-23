@@ -22,7 +22,7 @@
     <br>
     How I think can be really <b>extra</b>, <b>weird</b> and <b>out of the box</b>, just like Vaporwave. A Vaporwave song is very <b>unpredictable</b> and never sounds like a different song.
     <br>
-    I don't want to waste this platform just to show you what I can or cannot do.
+    I don't want to waste this platform just to show you what I am able to do but also share my story.
     <br>
     <b> Everything I do is with passion and is personal to me and I will always try my best and give it my all.</b>
 </p>

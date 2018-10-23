@@ -134,10 +134,10 @@ $me = 'Jerico Luis Lua'?>
             by <i><b><?= $me ?></b></i>
         </p>
         <p class="pdesc">
-            A self-made project.
+            An <b>incoming</b> self-made project.
         </p>
         <p class="pdesc">
-            A <b>future</b> project I want to make a project that involves two things I like doing, which are programming and watching movies.
+            I want to make a project that involves two things I like doing, which are programming and watching movies.
             <br>
             Whenever I go watch a movie, I usually don't throw the movie ticket, I rather collect it for the memories.
         </p>
