@@ -10,17 +10,19 @@
 if(!isset($_SESSION['openfiles'])){
 
     ?>
-    <p class="fileabt">Type in password to gain access to the secured files.</p>
+    <p class="fileabt">Type in the password given to you to gain access to the secured files.</p>
 
     <form class="form-inline" action="/FILES/checkPassword" method="post">
         <div class="formgroup">
             <label class="control-label" for="password" id="inputpass">Password</label>
             <input id="password" name="password" type="password" placeholder="Password" class="form-control col-md-2" required>
             <input id="btnfile" name="send" type="submit" class="btn" value="Show secured files">
+            <span id="errpass"><b>Wrong Password!</b></span>
         </div>
     </form>
-    <?php
-}
+        <?php if(!password_verify($this->passwordgiven, $this->passwordhash)){?>
+            <script>  </script>
+    <?php }}
 else if(isset($_SESSION['openfiles'])){
     ?>
     <div id="rbewerbung" class="row rfilecontainer">

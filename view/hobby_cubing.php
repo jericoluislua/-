@@ -13,7 +13,9 @@
         </button>
     </div>
 </div>
-<p>I have been speedcubing for <b>2 years</b> now. The date I learned how to solve a cube was <b>November 13 2015</b>. My personal record is <b>20.384 seconds</b>.</p>
+<p>
+    I have been speedcubing for <strong>2 years</strong> now. The date I learned how to solve a cube was <strong>November 13 2015</strong>. My personal record is <strong>20.384 seconds</strong>.
+</p>
 <div class="row"><!--for the float left-->
     <div class="col-md-6 firstvideo">
         <div class="videoinformation panel panel-default">

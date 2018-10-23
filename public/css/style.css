@@ -147,7 +147,7 @@ body {
     background-size: contain;
   }
   #innerdivme{
-    padding: 0 49px 0 49px;
+    padding: 10px 49px 0 49px;
   }
 }
 
@@ -460,18 +460,19 @@ body {
 
 }
 #divcexp{
-  display: inline-block;
-}
-.cexp{
-  display: inline-block;
   height: 20px;
-  width: 20px;
-  margin: 20px 0 3px 0;
+  margin-bottom: 15px;
 }
 .cdef{
   display: inline;
   margin: 20px 0 3px 0;
-
+}
+.pansize{
+  width: 20px;
+  height: 20px;
+}
+.cexp{
+  float:left;
 }
 #h1hobby{
   display: inline-block;
@@ -521,6 +522,9 @@ body {
 }
                        /* PARALLAX */
                        /* ABOUT ME */
+#contlife{
+  background-color: rgba(225, 225, 225, 1);
+}
 #innerdivme{
   margin: 0;
 }
@@ -593,6 +597,23 @@ body {
 }
 #vpgree{
   color: #05ffa1;
+}
+#panfinblue{
+  background-color: #80dfff;
+}
+#panfinviol{
+  background-color: #dcb4ff;
+}
+#panfinpink{
+  background-color: #ffbee8;
+}
+#panfingrey{
+  background-color: #f5f5f5;
+}
+#errpass{
+  color: red;
+  display: none;
+  transition: display 0.4s;
 }
 /*------------------------FILE-------------------------------*/
 

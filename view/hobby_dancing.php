@@ -14,9 +14,9 @@
     </div>
 </div>
 <p>
-    I have always been <b>dancing since</b> when I was a <b>little kid</b>. My mother used to enroll me and my sister to hip-hop <b>dancing lessons</b>. I joined three different school <b>cheerdance competitions</b> and I won <b>2 out of 3.</b>
+    I have always been <strong>dancing since</strong> when I was a <strong>little kid</strong>. My mother used to enroll me and my sister to hip-hop <strong>dancing lessons</strong>. I joined three different school <strong>cheerdance competitions</strong> and I won <strong>2 out of 3.</strong>
     <br>
-    The people I look up to in dancing are <b>Michael Jackson</b>, <b>Adam Sevani</b> or more commonly known as <b>Moose</b> and <b>Fik-Shun</b>.
+    The people I look up to in dancing are <strong>Michael Jackson</strong>, <strong>Adam Sevani</strong> or more commonly known as <strong>Moose</strong> and <strong>Fik-Shun</strong>.
 </p>
 <div class="row">
     <div class="col-md-6">

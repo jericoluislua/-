@@ -45,9 +45,12 @@ class FILESController
                 $_SESSION['openfiles'] = $passwordgiven;
                 header('Location: /FILES');
             }
-            else {
+            else if(empty($_POST['send'])){
+                echo "<script>";
+                    echo "document.getElementById(\"errpass\").style.display = \"inline\";";
+                echo "</script>";
                 header('Location: /FILES');
-                echo 'Wrong password given.';
+
             }
             /*if(password_verify($passwordgiven,$admhash)){
                 $_SESSION['admin'] = $passwordgiven;

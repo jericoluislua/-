@@ -11,6 +11,12 @@
  * Time: 5:32 PM
  */
 $me = 'Jerico Luis Lua'?>
+<div id="divcexp">
+    <p class="cexp">-temporary-&nbsp;</p> <div id="panfinblue" class="pansize cexp"></div> <p class="cexp">&nbsp;= functioning properly&nbsp;</p>
+    <div id="panfinviol" class="pansize cexp"></div><p class="cexp">&nbsp;= not yet done&nbsp;</p>
+    <div id="panfinpink" class="pansize cexp"></div><p class="cexp">&nbsp;= finished but not fully working&nbsp;</p>
+    <div id="panfingrey" class="pansize cexp"></div><p class="cexp">&nbsp;= future&nbsp;</p>
+</div>
 <div class="panel panel-itm">
     <div class="panel-heading">
         <h4 class="htitle">
@@ -19,13 +25,13 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <i><b><?= $me; ?></b></i>, <i><b>Sivakeerthan Vamanarajasekaran</b></i>, <i><b>Joel Feller</b></i> and <i><b>Dominik Schmalstieg</b></i>
+            by <i><strong><?= $me; ?></strong></i>, <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>, <i><strong>Joel Feller</strong></i> and <i><strong>Dominik Schmalstieg</strong></i>
         </p>
         <p class="pdesc">
-            A 306 gibb module project <b>in the making</b>.
+            A 306 gibb module project <strong>in the making</strong>.
         </p>
         <p class="pdesc">
-            We are creating this website to have a more user-friendly way of informing our teachers' in b)wd about our absences.
+            We are creating this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/Sivakeerthan/Systema-CAI" target="_blank">here</a>.
@@ -41,10 +47,10 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <i><b><?= $me; ?></b></i> and <i><b>Sivakeerthan Vamanarajasekaran</b></i>
+            by <i><strong><?= $me; ?></strong></i> and <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>
         </p>
         <p class="pdesc">
-            An "IDPA" project <b>in the making</b>
+            An "IDPA" project <strong>in the making</strong>
         </p>
         <p class="pdesc">
             We are creating this website to help people polish their knowledge on certain programming languages.
@@ -63,7 +69,7 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <i><b><?= $me; ?></b></i> and <i><b>Nicholas Lachenal</b></i>
+            by <i><strong><?= $me; ?></strong></i> and <i><strong>Nicholas Lachenal</strong></i>
         </p>
         <p class="pdesc">
             A project made in ÜK module 337.
@@ -85,7 +91,7 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <i><b><?= $me; ?></b></i>
+            by <i><strong><?= $me; ?></strong></i>
         </p>
         <p class="pdesc">
             A project made for the gibb module 133.
@@ -108,7 +114,7 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <i><b><?= $me ?></b></i> and <i><b>Denis Chanmongkhon</b></i>
+            by <i><strong><?= $me ?></strong></i> and <i><strong>Denis Chanmongkhon</strong></i>
         </p>
         <p class="pdesc">
             A project made in ÜK module 307.
@@ -116,7 +122,7 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
             <br>
-            Sadly the website is currently not working.<!--<b>not fully functional</b>.--> Check it out by clicking the title above.
+            Sadly the website is currently not working.<!--<strong>not fully functional</strong>.--> Check it out by clicking the title above.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
@@ -131,10 +137,10 @@ $me = 'Jerico Luis Lua'?>
     </div>
     <div class="panel-body">
         <p class="pcreator">
-            by <i><b><?= $me ?></b></i>
+            by <i><strong><?= $me ?></strong></i>
         </p>
         <p class="pdesc">
-            An <b>incoming</b> self-made project.
+            An <strong>incoming</strong> self-made project.
         </p>
         <p class="pdesc">
             I want to make a project that involves two things I like doing, which are programming and watching movies.

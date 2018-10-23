@@ -14,17 +14,17 @@
 <p>
     What's up with the (color & background) scheme you might ask?
     <br>
-    <b>This is Vaporwave</b>. This version of <span id="vppink">pink</span>, <span id="vpviol">violet</span>, <span id="vpblue">blue</span> and <span id="vpgree">green</span> is very much associated with it.
+    <strong>This is Vaporwave</strong>. This version of <span id="vppink">pink</span>, <span id="vpviol">violet</span>, <span id="vpblue">blue</span> and <span id="vpgree">green</span> is very much associated with it.
     <br>
     Now you might be asking yourself, what is Vaporwave?
     <br>
     Vaporwave is a music genre I really like.
     <br>
-    How I think can be really <b>extra</b>, <b>weird</b> and <b>out of the box</b>, just like Vaporwave. A Vaporwave song is very <b>unpredictable</b> and never sounds like a different song.
+    How I think can be really <strong>extra</strong>, <strong>weird</strong> and <strong>out of the box</strong>, just like Vaporwave. A Vaporwave song is very <strong>unpredictable</strong> and never sounds like a different song.
     <br>
-    I don't want to waste this platform just to show you what I am able to do but also share my story.
+    I don't want to waste this platform just to show you what I am capable to do but also to share my story.
     <br>
-    <b> Everything I do is with passion and is personal to me and I will always try my best and give it my all.</b>
+    <strong>Everything I do is with passion and is personal to me and I will always try my best and give it my all.</strong>
 </p>
 <script>
 

@@ -14,12 +14,12 @@
     </div>
 </div>
 <p>
-    Basketball is the <b>most loved sport in the Philippines</b>. So why would I not love it too?
+    Basketball is the <strong>most loved sport in the Philippines</strong>. So why would I not love it too?
     <br>
     I started playing Basketball around 6 months after I arrived here.
     <br>
     I joined a basketball club here in Switzerland named <a href="www.swiss-jbl.ch/">JBL</a>.
-    <b>Bulldogs</b> was the team I played with, for <b>three years</b>. Under those years I was a <b>consistent All-star player</b>.
+    <strong>Bulldogs</strong> was the team I played with, for <strong>three years</strong>. Under those years I was a <strong>consistent All-star player</strong>.
 <div class="row"><!--for the float left-->
     <div class="col-md-6">
         <!--<div class="videocontainer">
