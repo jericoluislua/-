@@ -149,6 +149,21 @@ body {
   #innerdivme{
     padding: 10px 49px 0 49px;
   }
+  #divcexp{
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  .cdef{
+    display: inline;
+    margin: 20px 0 3px 0;
+  }
+  .pansize{
+    width: 20px;
+    height: 20px;
+  }
+  .cexp{
+    float:left;
+  }
 }
 
 
@@ -226,6 +241,9 @@ body {
     background-size: cover;
     height: 500px;
     margin: 0;
+  }
+  .cexp{
+    display: block;
   }
 }
 
@@ -458,21 +476,6 @@ body {
 }
 #unfin{
 
-}
-#divcexp{
-  height: 20px;
-  margin-bottom: 15px;
-}
-.cdef{
-  display: inline;
-  margin: 20px 0 3px 0;
-}
-.pansize{
-  width: 20px;
-  height: 20px;
-}
-.cexp{
-  float:left;
 }
 #h1hobby{
   display: inline-block;
