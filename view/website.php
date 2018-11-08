@@ -20,7 +20,7 @@
     <br>
     Vaporwave is a music genre I really like.
     <br>
-    How I think can be really <strong>extra</strong>, <strong>weird</strong> and <strong>out of the box</strong>, just like Vaporwave. A Vaporwave song is very <strong>unpredictable</strong> and never sounds like a different song.
+    How I think can be really <strong>extra</strong>, <strong>weird</strong> and <strong>out of the box</strong>, just like Vaporwave. A Vaporwave song is very <strong>unpredictable</strong> and never sounds the same.
     <br>
     I don't want to waste this platform just to show you what I am capable to do but also to share my story.
     <br>
