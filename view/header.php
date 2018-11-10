@@ -40,9 +40,11 @@
                 <li><a href='/ME' id="<?= $activel ?>">ＭＥ</a></li>
                 <li><a href="/HOBBIES" id="<?= $activeh ?>">ＨＯＢＢＩＥＳ</a></li>
             </ul>
+            <?php if(isset($_SESSION['openfiles'])):?>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/LOGOUT" class="link" id="logout">ＬＯＧＯＵＴ</a></li>
             </ul>
+            <?php endif; ?>
         </div><!--/.nav-collapse -->
     </div>
 </nav>

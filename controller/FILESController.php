@@ -52,6 +52,9 @@ class FILESController
                 header('Location: /FILES');
 
             }
+            else{
+                header('Location: /FILES');
+            }
             /*if(password_verify($passwordgiven,$admhash)){
                 $_SESSION['admin'] = $passwordgiven;
                 header('Location: /FILES');
