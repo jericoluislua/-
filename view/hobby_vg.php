@@ -51,7 +51,7 @@
                         You also need to be <strong>precise</strong> and <strong>well-timed</strong> to give the most damage because the tip of his sword gives the most damage from his attacks.(Super Smash Bros. 4)</p>
                 </div>
                 <div class="video embed-responsive embed-responsive-yt">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cUKB50_ahwU?rel=0&controls=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JijqyK66Bg4?rel=0&controls=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
