@@ -28,7 +28,9 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me; ?></strong></i>, <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>, <i><strong>Joel Feller</strong></i> and <i><strong>Dominik Schmalstieg</strong></i>
         </p>
         <p class="pdesc">
-            A 306 gibb module project <strong>in the making</strong>.
+            A 306 gibb module project
+            <br>
+            Status: <strong>in the making</strong>.
         </p>
         <p class="pdesc">
             We are creating this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
@@ -39,7 +41,7 @@ $me = 'Jerico Luis Lua'?>
 
     </div>
 </div>
-<div class="panel panel-itm">
+<div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
             MRT-SJ
@@ -50,10 +52,12 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me; ?></strong></i> and <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>
         </p>
         <p class="pdesc">
-            An "IDPA" project <strong>in the making</strong>
+            A "IDPA" project
+            <br>
+            Status: <strong>in the making</strong>
         </p>
         <p class="pdesc">
-            We are creating this website to help people polish their knowledge on certain programming languages.
+            We created this website to help people polish their knowledge on certain programming(script) languages.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/MRT-SJ" target="_blank">here</a>.
@@ -72,7 +76,9 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me; ?></strong></i> and <i><strong>Nicholas Lachenal</strong></i>
         </p>
         <p class="pdesc">
-            A project made in ÜK module 337.
+            A module 337 project.
+            <br>
+            Status: <strong>done</done>
         </p>
         <p class="pdesc">
             This mobile app can help you know the pool and weather's temperature with ease.
@@ -94,7 +100,9 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me; ?></strong></i>
         </p>
         <p class="pdesc">
-            A project made for the gibb module 133.
+            A module 133 project.
+            <br>
+            Status: <strong>done</strong>
         </p>
         <p class="pdesc">
             This was my very first project with Javascript.
@@ -117,12 +125,14 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me ?></strong></i> and <i><strong>Denis Chanmongkhon</strong></i>
         </p>
         <p class="pdesc">
-            A project made in ÜK module 307.
+            A module 307 project.
+            <br>
+            Status: <strong>done</strong>
         </p>
         <p class="pdesc">
             My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
             <br>
-            Sadly the website is currently not working.<!--<strong>not fully functional</strong>.--> Check it out by clicking the title above.
+            The website is currently <!--<strong>not fully functional</strong>.--> but I am trying to fix it now. Check it out by clicking the title above.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
@@ -140,12 +150,38 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me ?></strong></i>
         </p>
         <p class="pdesc">
-            An <strong>upcoming</strong> self-made project.
+            A self-made project.
+            <br>
+            Status: <strong>upcoming</strong>
         </p>
         <p class="pdesc">
             I want to make a project that involves two things I like doing, which are programming and watching movies.
             <br>
             Whenever I go watch a movie, I usually don't throw the movie ticket, I rather collect it for the memories.
+        </p>
+        <p class="pdesc">
+            I haven't started on it yet.
+        </p>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="htitle">
+            Bulldogs
+        </h4>
+    </div>
+    <div class="panel-body">
+        <p class="pcreator">
+            by <i><strong><?= $me ?></strong></i>
+        </p>
+        <p class="pdesc">
+            A self-made project.
+            <br>
+            Status: <strong>upcoming</strong>
+        </p>
+        <p class="pdesc">
+            I want to make a project to track how many shots the Bulldogs players shoot and how many goes in. 
+            <br>
         </p>
         <p class="pdesc">
             I haven't started on it yet.
