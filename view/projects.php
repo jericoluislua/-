@@ -44,7 +44,7 @@ $me = 'Jerico Luis Lua'?>
 <div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
-            MRT-SJ
+            <a href="https://mrt-sj.jericolua.ch" class="hlink">MRT-SJ</a>
         </h4>
     </div>
     <div class="panel-body">
