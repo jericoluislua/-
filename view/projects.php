@@ -28,9 +28,9 @@ $me = 'Jerico Luis Lua'?>
             by <i><strong><?= $me; ?></strong></i>, <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>, <i><strong>Joel Feller</strong></i> and <i><strong>Dominik Schmalstieg</strong></i>
         </p>
         <p class="pdesc">
-            A 306 gibb module project
+            A module 306 project
             <br>
-            Status: <strong>in the making</strong>.
+            Status: <strong>in the making</strong>
         </p>
         <p class="pdesc">
             We are creating this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
@@ -78,7 +78,7 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             A module 337 project.
             <br>
-            Status: <strong>done</done>
+            Status: <strong>done</done></strong>
         </p>
         <p class="pdesc">
             This mobile app can help you know the pool and weather's temperature with ease.
