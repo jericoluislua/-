@@ -30,7 +30,7 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             A 306 gibb module project
             <br>
-            Status: <strong>done</strong>.
+            Status: <strong>in the making</strong>.
         </p>
         <p class="pdesc">
             We are creating this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
@@ -54,7 +54,7 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             A "IDPA" project
             <br>
-            Status: <strong>in the making</strong>
+            Status: <strong>done</strong>
         </p>
         <p class="pdesc">
             We created this website to help people polish their knowledge on certain programming(script) languages.
