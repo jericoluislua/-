@@ -17,7 +17,11 @@ $me = 'Jerico Luis Lua'?>
     <div id="panfinpink" class="pansize cexp"></div><p class="cexp">&nbsp;= finished but not fully working&nbsp;</p>
     <div id="panfingrey" class="pansize cexp"></div><p class="cexp">&nbsp;= future&nbsp;</p>
 </div>
-<div class="panel panel-itm">
+<!--panel-itm - in the making
+panel-broken - broken
+panel-fin - finish
+panel-default - future plans-->
+<div class="panel panel-fin">
     <div class="panel-heading">
         <h4 class="htitle">
             Systema-CAI
@@ -30,13 +34,13 @@ $me = 'Jerico Luis Lua'?>
         <p class="pdesc">
             A module 306 project
             <br>
-            Status: <strong>in the making</strong>
+            Status: <strong>done</strong>
         </p>
         <p class="pdesc">
             We are creating this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
         </p>
         <p class="pdesc">
-            The whole project can be seen <a href="https://github.com/Sivakeerthan/Systema-CAI" target="_blank">here</a>.
+            <!--The whole project can be seen <a href="https://github.com/Sivakeerthan/Systema-CAI" target="_blank">here</a>.-->
         </p>
 
     </div>

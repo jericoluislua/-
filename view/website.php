@@ -11,6 +11,7 @@
  * Tells you everything you need to know about the website.
  */
 ?>
+<!--add a future div-->
 <p>
     What's up with the (color & background) scheme you might ask?
     <br>

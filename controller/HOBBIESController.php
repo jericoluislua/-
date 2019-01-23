@@ -30,6 +30,7 @@ class HOBBIESController
         }
         $view->display();
     }
+
     public function basketball()
     {
         $view = new View('hobby_basketball');
@@ -99,6 +100,7 @@ class HOBBIESController
         }
         $view->display();
     }
+
     public function videogames()
     {
         $view = new View('hobby_vg');
@@ -122,4 +124,26 @@ class HOBBIESController
         $view->display();
     }
 
+    public function photography()
+    {
+        $view = new View('hobby_photography');
+        $view->title = '【﻿Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ　|　Ｐ　Ｈ　Ｏ　Ｔ　Ｏ　Ｇ　Ｒ　Ａ　Ｐ　Ｈ　Ｙ】';
+        $view->heading = 'p h o t o g r a p h y';
+        if($heading = "p h o t o g r a p h y")
+        {
+            $view->btnw = "off";
+            $view->bg = "bgphoto";
+            $view->container = "conthobbyp";
+            $view->id = "h1hobby";
+            $view->activeh = "activeh";
+            $view->activew = "website";
+            $view->activef = "file";
+            $view->activep = "project";
+            $view->activel = "life";
+            if($view->activeh != "activeh"){
+                $view->activeh = "hobby";
+            }
+        }
+        $view->display();
+    }
 }
