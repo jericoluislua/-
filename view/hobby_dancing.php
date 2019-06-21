@@ -16,7 +16,7 @@
 <p>
     I have always been <strong>dancing since</strong> when I was a <strong>little kid</strong>. My mother used to enroll me and my sister to hip-hop <strong>dancing lessons</strong>. I joined three different school <strong>cheerdance competitions</strong> and I won <strong>2 out of 3.</strong>
     <br>
-    The people I look up to in dancing are <strong>Michael Jackson</strong>, <strong>Adam Sevani</strong> or more commonly known as <strong>Moose</strong> and <strong>Fik-Shun</strong>.
+    The people I look up to in dancing are <strong>Michael Jackson</strong>, <strong>Fik-Shun</strong> and <strong>Adam Sevani</strong> or more commonly known as <strong>Moose</strong>.
 </p>
 <div class="row">
     <div class="col-md-6">
