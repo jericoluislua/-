@@ -31,7 +31,7 @@ else if(isset($_SESSION['openfiles'])){
         <div id="rlebenslauf" class="row rcontent">
             <h4 class="filename col-md-6">Lebenslauf</h4>
             <div class="filedetails filedetails-sho col-md-6" align="right">
-                <a href="https://drive.google.com/file/d/17M4F--2BXxAShhogKNzAUHA2GJeL5zH4/view?usp=sharing" target="_blank">download</a>
+                <a href="https://drive.google.com/file/d/1BSo0fH6_GpPkhA_Lky10GlhUpuJgnXBr/view?usp=sharing" target="_blank">download</a>
             </div>
         </div>
 
@@ -42,14 +42,14 @@ else if(isset($_SESSION['openfiles'])){
         <div class="row rcontent" id="rbwd">
             <h4 class="filename col-md-6">BWD</h4>
             <div class="filedetails filedetails-sho col-md-6" align="right">
-                <a href="https://drive.google.com/file/d/1DiKIz4-IpxsUyiw9GjNHRLXg-Fk1aJGS/view?usp=sharing" target="_blank">download</a>
+                <a href="https://drive.google.com/file/d/1hcyjuumEI7LxXBi3lnQxqgs8DonIWVUN/view?usp=sharing" target="_blank">download</a>
             </div>
         </div>
 
         <div class="row rcontent" id="rgibb">
             <h4 class="filename col-md-6">gibb</h4>
             <div class="filedetails filedetails-sho col-md-6" align="right">
-                <a href="https://drive.google.com/file/d/1CU8VM5zWIvRMs6c_DHADqR2T5w0D3j2t/view?usp=sharing" target="_blank">download</a>
+                <a href="https://drive.google.com/file/d/1ub5O8IYw8_axZiWJB4eWSyW0X8_KGiHE/view?usp=sharing" target="_blank">download</a>
             </div>
         </div>
     </div>
