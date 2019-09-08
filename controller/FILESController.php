@@ -9,7 +9,7 @@
 class FILESController
 {
 
-    protected $realpassword = 'JericoIM16a';
+    protected $realpassword = 'JericoIM17a';
     public function index()
     {
         $view = new View('files');
