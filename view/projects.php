@@ -37,10 +37,10 @@ panel-default - future plans-->
             Status: <strong>done</strong>
         </p>
         <p class="pdesc">
-            We are creating this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
+            We created this website to have a more user-friendly way of informing our teachers' in b(wd about our absences.
         </p>
         <p class="pdesc">
-            <!--The whole project can be seen <a href="https://github.com/Sivakeerthan/Systema-CAI" target="_blank">here</a>.-->
+            The whole project can be seen <a href="https://github.com/Sivakeerthan/Systema-CAI" target="_blank">here</a>.
         </p>
 
     </div>
