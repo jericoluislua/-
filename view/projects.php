@@ -168,7 +168,7 @@ panel-default - future plans-->
         </p>
     </div>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-itm">
     <div class="panel-heading">
         <h4 class="htitle">
             Bulldogs
@@ -181,7 +181,7 @@ panel-default - future plans-->
         <p class="pdesc">
             A self-made project.
             <br>
-            Status: <strong>upcoming</strong>
+            Status: <strong>In the making</strong>
         </p>
         <p class="pdesc">
             I want to make a project to track how many shots the Bulldogs players shoot and how many goes in. 
