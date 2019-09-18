@@ -188,7 +188,7 @@ panel-default - future plans-->
             <br>
         </p>
         <p class="pdesc">
-            I haven't started on it yet.
+            Started on September 15 2019.
         </p>
     </div>
 </div>
