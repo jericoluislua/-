@@ -516,6 +516,10 @@ body {
 .hlink:hover{
   color: #4c4c4c;
 }
+.hnolink:focus{
+  color: #4c4c4c;
+  text-decoration: none;
+}
                        /* VIDEOSTUFF */
 .videoinformation{
   background-color: #f5f5f5;
