@@ -46,7 +46,7 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-fin">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-mrt-sj" href="#body-mrt-sj" data-toggle="collapse">
         <h4 class="htitle">
             <a href="https://mrt-sj.jericolua.ch" class="hlink">MRT-SJ</a>
         </h4>
@@ -70,7 +70,7 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-fin">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-badiapp" href="#body-badiapp" data-toggle="collapse">
         <h4 class="htitle">
             BadiApp
         </h4>
@@ -94,7 +94,7 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-fin">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-jsttt" href="#body-jsttt" data-toggle="collapse">
         <h4 class="htitle">
             <a href="https://tictactoe.jericolua.ch" class="hlink">TIC TAC TOE</a>
         </h4>
