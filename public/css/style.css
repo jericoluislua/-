@@ -499,6 +499,7 @@ body {
 }
 .hnolink{
   color: #4c4c4c;
+  text-decoration: none;
 }
 .hlink:hover{
   color: #4c4c4c;
