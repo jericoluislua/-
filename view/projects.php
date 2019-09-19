@@ -27,7 +27,7 @@ panel-default - future plans-->
             Systema-CAI
         </h4>
     </div>
-    <div class="panel-body" id="body-systema-cai">
+    <div class="panel-body collapse" id="body-systema-cai">
         <p class="pcreator">
             by <i><strong><?= $me; ?></strong></i>, <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>, <i><strong>Joel Feller</strong></i> and <i><strong>Dominik Schmalstieg</strong></i>
         </p>
@@ -51,7 +51,7 @@ panel-default - future plans-->
             <a href="https://mrt-sj.jericolua.ch" class="hlink">MRT-SJ</a>
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body collapse" id="body-mrt-sj">
         <p class="pcreator">
             by <i><strong><?= $me; ?></strong></i> and <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>
         </p>
@@ -75,7 +75,7 @@ panel-default - future plans-->
             BadiApp
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body collapse" id="body-badiapp">
         <p class="pcreator">
             by <i><strong><?= $me; ?></strong></i> and <i><strong>Nicholas Lachenal</strong></i>
         </p>
@@ -99,7 +99,7 @@ panel-default - future plans-->
             <a href="https://tictactoe.jericolua.ch" class="hlink">TIC TAC TOE</a>
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body collapse" id="body-jsttt">
         <p class="pcreator">
             by <i><strong><?= $me; ?></strong></i>
         </p>
@@ -119,12 +119,12 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-broken">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-suppart" href="#body-suppart" data-toggle="collapse">
         <h4 class="htitle">
             <a href="https://suppart.jericolua.ch/" target="_blank" class="hlink">SuppArt</a>
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body collapse" id="body-suppart">
         <p class="pcreator">
             by <i><strong><?= $me ?></strong></i> and <i><strong>Denis Chanmongkhon</strong></i>
         </p>
@@ -144,12 +144,12 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-MTSQL" href="#body-mtsql" data-toggle="collapse">
         <h4 class="htitle">
             MTSQL (Movie Tickets SQL)
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body collapse" id="body-mtsql">
         <p class="pcreator">
             by <i><strong><?= $me ?></strong></i>
         </p>
@@ -169,12 +169,12 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-itm">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-bulldogs" href="#body-bulldogs" data-toggle="collapse">
         <h4 class="htitle">
             Bulldogs
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body collapse" id="body-bulldogs">
         <p class="pcreator">
             by <i><strong><?= $me ?></strong></i>
         </p>
