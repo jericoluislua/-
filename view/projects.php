@@ -24,7 +24,7 @@ panel-default - future plans-->
 <div class="panel panel-fin">
     <div class="panel-heading" id="collapse-systema-cai" href="#body-systema-cai" data-toggle="collapse">
         <h4 class="htitle">
-            Systema-CAI
+                <a href="#" class="hnolink">Systema-CAI</a>
         </h4>
     </div>
     <div class="panel-body collapse" id="body-systema-cai">
@@ -72,7 +72,7 @@ panel-default - future plans-->
 <div class="panel panel-fin">
     <div class="panel-heading" id="collapse-badiapp" href="#body-badiapp" data-toggle="collapse">
         <h4 class="htitle">
-            BadiApp
+                <a href="#" class="hnolink">BadiApp</a>
         </h4>
     </div>
     <div class="panel-body collapse" id="body-badiapp">
@@ -146,7 +146,7 @@ panel-default - future plans-->
 <div class="panel panel-default">
     <div class="panel-heading" id="collapse-MTSQL" href="#body-mtsql" data-toggle="collapse">
         <h4 class="htitle">
-            MTSQL (Movie Tickets SQL)
+                <a href="#" class="hnolink">MTSQL (Movie Tickets SQL)</a>
         </h4>
     </div>
     <div class="panel-body collapse" id="body-mtsql">
@@ -171,7 +171,7 @@ panel-default - future plans-->
 <div class="panel panel-itm">
     <div class="panel-heading" id="collapse-bulldogs" href="#body-bulldogs" data-toggle="collapse">
         <h4 class="htitle">
-            Bulldogs
+                <a href="#" class="hnolink">Bulldogs</a>
         </h4>
     </div>
     <div class="panel-body collapse" id="body-bulldogs">
