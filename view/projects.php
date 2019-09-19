@@ -27,7 +27,7 @@ panel-default - future plans-->
             Systema-CAI
         </h4>
     </div>
-    <div class="panel-body" id="body-systema-cai">
+    <div class="panel-body collapse" id="body-systema-cai">
         <p class="pcreator">
             by <i><strong><?= $me; ?></strong></i>, <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>, <i><strong>Joel Feller</strong></i> and <i><strong>Dominik Schmalstieg</strong></i>
         </p>
