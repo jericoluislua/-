@@ -500,6 +500,10 @@ body {
 .hnolink{
   color: #4c4c4c;
 }
+.hlink:hover{
+  color: #4c4c4c;
+  text-decoration: none;
+}
 .hlink{
   color: #4c4c4c;
   text-decoration: underline;
