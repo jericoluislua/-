@@ -22,12 +22,12 @@ panel-broken - broken
 panel-fin - finish
 panel-default - future plans-->
 <div class="panel panel-fin">
-    <div class="panel-heading">
+    <div class="panel-heading" id="collapse-systema-cai" href="#body-systema-cai" data-toggle="collapse">
         <h4 class="htitle">
             Systema-CAI
         </h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body" id="body-systema-cai">
         <p class="pcreator">
             by <i><strong><?= $me; ?></strong></i>, <i><strong>Sivakeerthan Vamanarajasekaran</strong></i>, <i><strong>Joel Feller</strong></i> and <i><strong>Dominik Schmalstieg</strong></i>
         </p>
