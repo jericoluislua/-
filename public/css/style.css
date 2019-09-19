@@ -505,6 +505,10 @@ body {
   color: #4c4c4c;
   text-decoration: none;
 }
+.hnolink:focus{
+  color: #4c4c4c;
+  text-decoration: none;
+}
 .hlink{
   color: #4c4c4c;
   text-decoration: underline;
