@@ -13,9 +13,9 @@
 $me = 'Jerico Luis Lua'?>
 <div id="divcexp">
     <p class="cexp">-temporary-&nbsp;</p> <div id="panfinblue" class="pansize cexp"></div> <p class="cexp">&nbsp;= functioning properly&nbsp;</p>
-    <div id="panfinviol" class="pansize cexp"></div><p class="cexp">&nbsp;= not yet done&nbsp;</p>
-    <div id="panfinpink" class="pansize cexp"></div><p class="cexp">&nbsp;= finished but not fully working&nbsp;</p>
-    <div id="panfingrey" class="pansize cexp"></div><p class="cexp">&nbsp;= future&nbsp;</p>
+    <div id="panfinviol" class="pan cexp"></div><p class="cexp">&nbsp;= not yet done&nbsp;</p>
+    <div id="panfinpink" class="pan cexp"></div><p class="cexp">&nbsp;= finished but not fully working&nbsp;</p>
+    <div id="panfingrey" class="pan cexp"></div><p class="cexp">&nbsp;= future&nbsp;</p>
 </div>
 <!--panel-itm - in the making
 panel-broken - broken
