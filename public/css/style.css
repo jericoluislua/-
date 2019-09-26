@@ -157,9 +157,10 @@ body {
     display: inline;
     margin: 20px 0 3px 0;
   }
-  .pansize{
+  .pan{
     width: 20px;
     height: 20px;
+    float: inline-start;
   }
   .cexp{
     float:left;
@@ -616,6 +617,11 @@ body {
 }
 #vpgree{
   color: #05ffa1;
+}
+.pan{
+  width: 20px;
+  height: 20px;
+  float: inline-start;
 }
 #panfinblue{
   background-color: #80dfff;
