@@ -143,7 +143,7 @@ panel-default - future plans-->
         </p>
     </div>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-itm">
     <div class="panel-heading" id="collapse-MTSQL" href="#body-mtsql" data-toggle="collapse">
         <h4 class="htitle">
                 <a href="#" class="hnolink">MTSQL (Movie Tickets SQL)</a>
@@ -156,7 +156,7 @@ panel-default - future plans-->
         <p class="pdesc">
             A self-made project.
             <br>
-            Status: <strong>upcoming</strong>
+            Status: <strong>In the making</strong>
         </p>
         <p class="pdesc">
             I want to make a project that involves two things I like doing, which are programming and watching movies.
