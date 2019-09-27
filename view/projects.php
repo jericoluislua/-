@@ -144,12 +144,12 @@ panel-default - future plans-->
     </div>
 </div>
 <div class="panel panel-itm">
-    <div class="panel-heading" id="collapse-MTSQL" href="#body-mtsql" data-toggle="collapse">
+    <div class="panel-heading" id="collapse-MT-MEAN" href="#body-mt-mean" data-toggle="collapse">
         <h4 class="htitle">
-                <a href="#" class="hnolink">MTSQL (Movie Tickets SQL)</a>
+                <a href="#" class="hnolink">MT-MEAN (Movie Tickets MEAN)</a>
         </h4>
     </div>
-    <div class="panel-body collapse" id="body-mtsql">
+    <div class="panel-body collapse" id="body-mt-mean">
         <p class="pcreator">
             by <i><strong><?= $me ?></strong></i>
         </p>
@@ -161,10 +161,12 @@ panel-default - future plans-->
         <p class="pdesc">
             I want to make a project that involves two things I like doing, which are programming and watching movies.
             <br>
+            This project will be based on JavaScript(Angular) front end and Node, Express for the backend, which will connect everything with the Database(MongoDB).
+            <br>
             Whenever I go watch a movie, I usually don't throw the movie ticket, I rather collect it for the memories.
         </p>
         <p class="pdesc">
-            I haven't started on it yet.
+            Started on September 26 2019.
         </p>
     </div>
 </div>
