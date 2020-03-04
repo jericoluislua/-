@@ -194,6 +194,30 @@ panel-default - future plans-->
         </p>
     </div>
 </div>
+<div class="panel panel-fin">
+    <div class="panel-heading" id="collapse-vitaelize" href="#body-vitaelize" data-toggle="collapse">
+        <h4 class="htitle">
+                <a href="#" class="hnolink">vitaelize</a>
+        </h4>
+    </div>
+    <div class="panel-body collapse" id="body-vitaelize">
+        <p class="pcreator">
+                by <i><strong><?= $me ?></strong></i>, <strong>Michel Rohrbach</strong>and <strong>Tomaso Leoni</strong>
+        </p>
+        <p class="pdesc">
+            A module 306 project.
+            <br>
+            Status: <strong>finished</strong>
+        </p>
+        <p class="pdesc">
+            A website to help applicants create their CVs.
+            <br>
+        </p>
+        <p class="pdesc">
+            Started on November 14 2019.
+        </p>
+    </div>
+</div>
 <!--<script>
     /*https://stackoverflow.com/questions/10750603/jquery-detect-a-window-width-change-but-not-a-height-change*/
     /* Do not waste time by creating jQuery object from window multiple times.
