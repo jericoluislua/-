@@ -6,7 +6,6 @@
  * Time: 16:41
  */
 ?>
-</div>
 <div class="row rhobbies">
 
     <button onclick="location.href = '/HOBBIES/basketball';" id="basketball" class="btn btnhobby" >b a s k e t b a l l</button>
