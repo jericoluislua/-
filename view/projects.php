@@ -136,7 +136,7 @@ panel-default - future plans-->
         <p class="pdesc">
             My very first website with PHP. It is for the artists. It's supposed to be a community for artists to help each other get better at what they can do.
             <br>
-            The website is currently <!--<strong>not fully functional</strong>.--> but I am trying to fix it now. Check it out by clicking the title above.
+            The website is currently <strong>not fully functional</strong>. but I am trying to fix it now. Check it out by clicking the title above.
         </p>
         <p class="pdesc">
             The whole project can be seen <a href="https://github.com/jericoluislua/SuppArt" target="_blank">here</a>.
@@ -202,7 +202,7 @@ panel-default - future plans-->
     </div>
     <div class="panel-body collapse" id="body-vitaelize">
         <p class="pcreator">
-                by <i><strong><?= $me ?></strong></i>, <strong>Michel Rohrbach</strong>and <strong>Tomaso Leoni</strong>
+                by <i><strong><?= $me ?></strong></i>, <strong>Michel Rohrbach</strong> and <strong>Tomaso Leoni</strong>
         </p>
         <p class="pdesc">
             A module 306 project.
