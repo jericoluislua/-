@@ -5,6 +5,7 @@
     <button onclick="location.href = '/HOBBIES/dancing';" id="dancing" class="btn btnhobby" >d a n c i n g</button>
     <button onclick="location.href = '/HOBBIES/videogames';" id="videogames" class="btn btnhobby" >v i d e o g a m e s</button>
     <button onclick="location.href = '/HOBBIES/cubing';" id="cubing" class="btn btnhobby" >c u b i n g</button>
+    <button onclick="location.href = '/HOBBIES/multimedia';" id="multimedia" class="btn btnhobby" >m u l t i m e d i a</button>
 
 </div>
 <script>
