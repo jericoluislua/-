@@ -124,16 +124,16 @@ class HOBBIESController
         $view->display();
     }
 
-    public function photography()
+    public function multimedia()
     {
-        $view = new View('hobby_photography');
-        $view->title = '【﻿Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ　|　Ｐ　Ｈ　Ｏ　Ｔ　Ｏ　Ｇ　Ｒ　Ａ　Ｐ　Ｈ　Ｙ】';
-        $view->heading = 'p h o t o g r a p h y';
-        if($heading = "p h o t o g r a p h y")
+        $view = new View('hobby_multimedia');
+        $view->title = '【﻿Ｈ　Ｏ　Ｂ　Ｂ　Ｉ　Ｅ　Ｓ　|　Ｍ　Ｕ　Ｌ　Ｔ　Ｉ　Ｍ　Ｅ　Ｄ　Ｉ　Ａ】';
+        $view->heading = 'm u l t i m e d i a';
+        if($heading = "m u l t i m e d i a")
         {
             $view->btnw = "off";
-            $view->bg = "bgphoto";
-            $view->container = "conthobbyp";
+            $view->bg = "bgmm";
+            $view->container = "conthobbymm";
             $view->id = "h1hobby";
             $view->activeh = "activeh";
             $view->activew = "website";
