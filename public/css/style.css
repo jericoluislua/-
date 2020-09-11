@@ -9,7 +9,7 @@ body {
 
 /*gradient transition : https://codepen.io/chriscoyier/pen/eRbLWP */
 @media only screen and (min-device-width: 768px) {
-  #bgindex, #bgfiles, #bgprojs, #bglife, #bgme, #bghobby, #bgbball, #bgdance, #bgcubin, #bgvg, #bgphoto{
+  #bgindex, #bgfiles, #bgprojs, #bglife, #bgme, #bghobby, #bgbball, #bgdance, #bgcubin, #bgvg, #bgmm{
     position: fixed;
   }
   #bgindex{
