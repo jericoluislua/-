@@ -1,4 +1,4 @@
-</div>
+<!--</div>
 <?php
 /**
  * Created by PhpStorm.
@@ -157,4 +157,4 @@ else if(isset($_SESSION['openfiles'])){
     </script>
     <?php
 }
-?>
+?>-->

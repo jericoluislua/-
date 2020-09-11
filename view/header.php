@@ -35,7 +35,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav centered-navbar">
-                <li><a href="/FILES" id="<?= $activef ?>">ＦＩＬＥＳ</a></li>
+                <!--<li><a href="/FILES" id="<?= $activef ?>">ＦＩＬＥＳ</a></li>-->
                 <li><a href='/PROJECTS' id="<?= $activep ?>">ＰＲＯＪＥＣＴＳ</a></li>
                 <li><a href='/ME' id="<?= $activel ?>">ＭＥ</a></li>
                 <li><a href="/HOBBIES" id="<?= $activeh ?>">ＨＯＢＢＩＥＳ</a></li>
