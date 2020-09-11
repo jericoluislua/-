@@ -32,7 +32,7 @@
             <br>
             We didn't just learn how to program we also learned how to use programs to help us like for example <strong>Github</strong>. Where we can upload our projects and download the newest version that easily.
             <br>
-            As of now I am trying to learn JS Frameworks like React and Angular just by watching videos online.
+            As of now I have learnt the basics of React. I am currently learning more about Ruby on Rails, Angular and Vue.
         </h4>
     </div>
 
