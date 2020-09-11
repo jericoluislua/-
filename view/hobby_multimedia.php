@@ -5,6 +5,7 @@
  * Date: 23.01.2019
  * Time: 16:41
  */
+?>
 </div>
 <div class="row rhobbies">
 
