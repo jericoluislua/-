@@ -11,12 +11,13 @@
     <div id="bgimage-1"></div>
     <div class="parallaxme">
     <h4 class="abtme">
-        My name is <strong>Jerico Luis Lua</strong>. A <strong>very energetic</strong>, <strong>creative</strong>, <strong>loyal</strong> and <strong>funny 18 year old young man from the Philippines</strong> that has been <strong>living in Switzerland for 6 years</strong> now.
+        My name is <strong>Jerico Luis Lua</strong>. A <strong>very energetic</strong>, <strong>creative</strong> and <strong>funny 20 year old young man from the Philippines</strong> that has been <strong>living in Switzerland for 8 years</strong> now.
         <br>
         <br>
-        I was <strong>three</strong> years in <strong>IMS</strong> as an <strong>IT(application developer) student</strong>. I went to <a href="https://www.bwdbern.ch/ims/" id="bwdlink" target="_blank">b(wd</a> 4 times a week and this is where I had my normal school subjects(German, Math, etc).
+        I was <strong>four</strong> years in <strong>IMS</strong> as an <strong>IT(application developer) student</strong>. I went to <a href="https://www.bwdbern.ch/ims/" id="bwdlink" target="_blank">b(wd</a> 4 times a week and this is where I had my normal school subjects(German, Math, etc).
         On the other hand I went to <a href="https://gibb.ch/grundbildung/berufe/informatikerin" target="_blank" id="gibblink">gibb</a> to learn more about IT.
         All in all I went to three different schools. The third school I went to is <a href="https://berufsbildungscenter.ch/lehrberuf-informatik/" target="_blank" id="bbclink">Bbc</a>, where I learned about application developer specific modules.
+        Currently, I'm in CsBe finishing my IT lessons and hopefully get an internship afterward.
     </h4>
     </div>
     <div id="bgimage-2"></div>
