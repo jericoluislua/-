@@ -4,7 +4,7 @@
                   <br/>
                   <a href="mailto:jericoluislua@yahoo.com.ph" title="jericoluislua@yahoo.com.ph"><img src="/images/iconset-1/email-logo.svg" class="flogo"/></a>-->
                     <h3 id="hfooter">Contact</h3>
-                    <h5>E-Mail: <a href="mailto:jerico.lua@bwdbern.ch" title="jerico.lua@ict.csbe.ch">jerico.lua@bwdbern.ch</a></h5>
+                    <h5>E-Mail: <a href="mailto:jerico.lua@bwdbern.ch" title="jerico.lua@ict.csbe.ch">jerico.lua@ict.csbe.ch</a></h5>
                     <a href="https://github.com/jericoluislua" title="Most of my school projects are in here."><img src="/images/iconset-1/github-logo.svg" class="flogo"/></a>
 <!--                      <a href="https://www.instagram.com/jclt_nogitsune/" title="My personal instagram account" target="_blank"><img src="/images/iconset-1/ig-new.png" class="flogo"/></a>
                  <a href="https://www.facebook.com/jericoluislua/" title="My personal facebook account" target="_blank"><img src="/images/iconset-1/fb-logo.svg" class="flogo"/></a>
